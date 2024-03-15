@@ -1,5 +1,5 @@
 ---
-title: "Blogposting"
+title: "BlogPosting"
 description: ""
 summary: ""
 date: 2024-03-14T21:38:52+01:00

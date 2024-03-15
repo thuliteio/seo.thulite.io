@@ -1,5 +1,5 @@
 ---
-title: "Newsarticle"
+title: "NewsArticle"
 description: ""
 summary: ""
 date: 2024-03-14T21:38:40+01:00
