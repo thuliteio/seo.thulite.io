@@ -34,5 +34,5 @@ If you do not specify a custom canonical URL, the [Permalink](https://gohugo.io/
 Hyas SEO generates the following meta tag — for example:
 
 ```html
-<link rel="canonical" href="https://seo.gethyas.com/docs/basics/canonical/" itemprop="url">
+<link rel="canonical" href="https://seo.gethyas.com/docs/basics/canonical/">
 ```
