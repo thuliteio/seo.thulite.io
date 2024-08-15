@@ -14,15 +14,15 @@ seo:
   robots: "" # custom robot tags (optional)
 ---
 
-The quickest way to get started with SEO is using a Hyas theme with [SEO already installed](/docs/start-here/getting-started/#check-if-seo-is-installed). If you want to add SEO to an existing Hyas project, this guide will explain how.
+The quickest way to get started with SEO is using a Thulite theme with [SEO already installed](/docs/start-here/getting-started/#check-if-seo-is-installed). If you want to add SEO to an existing Thulite project, this guide will explain how.
 
 ## Set up SEO
 
-To follow this guide, you'll need an existing Hyas project.
+To follow this guide, you'll need an existing Thulite project.
 
 ### Add the integration
 
-SEO is a [Hyas integration](https://docs.gethyas.com/guides/integrations/). Add it to your site by running the following command in your project's root directory:
+SEO is a [Thulite integration](https://docs.thulite.io/guides/integrations/). Add it to your site by running the following command in your project's root directory:
 
 {{< tabs "install-images" >}}
 {{< tab "npm" >}}

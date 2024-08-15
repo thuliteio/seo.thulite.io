@@ -33,7 +33,7 @@ If a custom `description` is set in the frontmatter of a page, that `description
 
 Otherwise, the `description` set in the frontmatter of a page is used — with a fallback to `description` set in `config/_default/params.toml`.
 
-Hyas SEO generates the following meta tag — for example:
+Thulite SEO generates the following meta tag — for example:
 
 ```html
 <meta name="description" content="Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.">

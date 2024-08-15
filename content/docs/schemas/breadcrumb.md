@@ -22,7 +22,7 @@ No settings.
 
 ## Generated meta tag
 
-Hyas SEO generates the following meta tag (if applicable, not homepage) — for example:
+Thulite SEO generates the following meta tag (if applicable, not homepage) — for example:
 
 ```html
 <script type="application/ld+json">

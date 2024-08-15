@@ -24,12 +24,12 @@ No settings.
 
 ## Generated file
 
-Hyas SEO generates the following `robots.txt` — for example:
+Thulite SEO generates the following `robots.txt` — for example:
 
 ```txt
 User-agent: *
 Disallow: /admin/
-Sitemap: https://seo.gethyas.com/sitemap.xml
+Sitemap: https://seo.thulite.io/sitemap.xml
 ```
 
 ## Resources

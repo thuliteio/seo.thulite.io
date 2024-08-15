@@ -1,7 +1,7 @@
 # Hugo
-title = "Hyas"
+title = "Thulite"
 subTitle = "SEO"
-description = "Everything you need to make your Hyas website more visible in search results. Solid setup and easy to use."
+description = "Everything you need to make your Thulite website more visible in search results. Solid setup and easy to use."
 images = ["cover.png"]
 
 # mainSections
@@ -14,7 +14,7 @@ mainSections = ["docs"]
 # Add-ons
 [add_ons]
   docSearch = false # false (default) or true
-  plausibleDomain = "seo.gethyas.com" # "example.com" (default)
+  plausibleDomain = "seo.thulite.io" # "example.com" (default)
   keila = false # false (default) or true
 
 # Doks (@hyas/doks-core)
@@ -112,7 +112,7 @@ mainSections = ["docs"]
 [hyas_images]
   [hyas_images.defaults]
     decoding = "async" # sync, async, or auto (default)
-    fetchpriority = "auto" # high, low, or auto (default) 
+    fetchpriority = "auto" # high, low, or auto (default)
     loading = "lazy" # eager or lazy (default)
     widths = [480, 576, 768, 1025, 1200, 1440] # [640, 768, 1024, 1366, 1600, 1920] for example
     sizes = "auto" # 100vw (default), 75vw, or auto for example
@@ -134,7 +134,7 @@ mainSections = ["docs"]
   [seo.schemas]
     type = "Organization" # Organization (default) or Person
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
-    name = "Hyas" # Name of Organization or Person
+    name = "Thulite" # Name of Organization or Person
     sameAs = ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"] # E.g. ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"]
     images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections

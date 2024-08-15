@@ -18,7 +18,7 @@ This reference guide describes the [SEO parameters](/docs/start-here/customizing
 
 ## title
 
-A string containing the website's title — for example `"Hyas"`
+A string containing the website's title — for example `"Thulite"`
 
 ## description
 
@@ -66,7 +66,7 @@ Logo of Organization — `"favicon-512x512.png"` (default)
 
 ### name
 
-Name of Organization or Person — for example `"Hyas"`
+Name of Organization or Person — for example `"Thulite"`
 
 ### sameAs
 

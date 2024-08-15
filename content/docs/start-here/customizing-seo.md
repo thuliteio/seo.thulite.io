@@ -14,14 +14,14 @@ seo:
   robots: "" # custom robot tags (optional)
 ---
 
-You can customize Hyas SEO by updating settings, parameters, and page frontmatter.
+You can customize Thulite SEO by updating settings, parameters, and page frontmatter.
 
 ## Update settings
 
 Update [settings](/docs/reference/settings/) in `./config/_default/hugo.toml`:
 
 ```toml
-title = "Hyas"
+title = "Thulite"
 enableRobotsTXT = true
 ```
 
@@ -31,7 +31,7 @@ Update [parameters](/docs/reference/parameters/) in `./config/_default/params.to
 
 ```toml {title=params.toml}
 # Hugo
-title = "Hyas"
+title = "Thulite"
 description = "Congrats on setting up a new Doks project!"
 images = ["cover.png"]
 
@@ -50,7 +50,7 @@ images = ["cover.png"]
   [seo.schemas]
     type = "Organization" # Organization (default) or Person
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
-    name = "Hyas" # Name of Organization or Person
+    name = "Thulite" # Name of Organization or Person
     sameAs = [] # E.g. ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"]
     images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections

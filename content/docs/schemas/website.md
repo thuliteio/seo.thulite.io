@@ -28,7 +28,7 @@ description = "Congrats on setting up a new Doks project!"
 
 ## Generated meta tag
 
-Hyas SEO generates the following meta tag (homepage only) — for example:
+Thulite SEO generates the following meta tag (homepage only) — for example:
 
 ```html
 <script type="application/ld+json">

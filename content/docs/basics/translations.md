@@ -29,9 +29,9 @@ defaultContentLanguageInSubdir = false
 
 ## Generated meta tags
 
-Hyas SEO uses [IsTranslated](https://gohugo.io/methods/page/istranslated/) to determine whether the given page has one or more translations and [AllTranslations](https://gohugo.io/methods/page/alltranslations/) to return all translations of the given page, including the current language.
+Thulite SEO uses [IsTranslated](https://gohugo.io/methods/page/istranslated/) to determine whether the given page has one or more translations and [AllTranslations](https://gohugo.io/methods/page/alltranslations/) to return all translations of the given page, including the current language.
 
-Hyas SEO generates the following meta tags (if applicable) — for example:
+Thulite SEO generates the following meta tags (if applicable) — for example:
 
 ```html
 <link rel="alternate" hreflang="nl" href="https://getdoks.org/nl/docs/guides/example-guide/">

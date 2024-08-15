@@ -31,21 +31,21 @@ See the [Sitemap reference page](/docs/reference/sitemap/) for all available val
 
 ## Generated files
 
-Hyas SEO generates the following `sitemap.xml` — for example:
+Thulite SEO generates the following `sitemap.xml` — for example:
 
 ```xml {title="sitemap.xml"}
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <sitemap>
-      <loc>https://seo.gethyas.com/en/sitemap.xml</loc>
+      <loc>https://seo.thulite.io/en/sitemap.xml</loc>
       <lastmod>2023-09-07T17:19:07+02:00</lastmod>
    </sitemap>
    <sitemap>
-      <loc>https://seo.gethyas.com/de/sitemap.xml</loc>
+      <loc>https://seo.thulite.io/de/sitemap.xml</loc>
       <lastmod>2023-09-07T16:04:48+02:00</lastmod>
    </sitemap>
    <sitemap>
-      <loc>https://seo.gethyas.com/nl/sitemap.xml</loc>
+      <loc>https://seo.thulite.io/nl/sitemap.xml</loc>
    </sitemap>
 </sitemapindex>
 ```

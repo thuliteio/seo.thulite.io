@@ -32,9 +32,9 @@ Add the files — "favicon.png" and "favicon.svg" in the example above — to yo
 
 ## Generated meta tags
 
-Hyas SEO generates a `favicon.ico`, `apple-touch-icon.png`, `favicon-192x192.png`, and `favicon-512x512.png` file from the `icon` file you set in `params.toml`. The generated files are copied to your projects' `public` directory.
+Thulite SEO generates a `favicon.ico`, `apple-touch-icon.png`, `favicon-192x192.png`, and `favicon-512x512.png` file from the `icon` file you set in `params.toml`. The generated files are copied to your projects' `public` directory.
 
-Hyas SEO generates the following meta tags — for example:
+Thulite SEO generates the following meta tags — for example:
 
 ```html
 <link rel="icon" href="/favicon.ico" sizes="32x32">
@@ -60,7 +60,7 @@ Hyas SEO generates the following meta tags — for example:
 <link rel="manifest" href="/manifest.webmanifest">
 ```
 
-Hyas SEO also generates a `manifest.webmanifest` file — for example:
+Thulite SEO also generates a `manifest.webmanifest` file — for example:
 
 ```json {title="manifest.webmanifest"}
 {

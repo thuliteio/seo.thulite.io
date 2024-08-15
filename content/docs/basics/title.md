@@ -43,7 +43,7 @@ If a custom `title` is set in the frontmatter of a page, that `title` is used.
 
 Otherwise, the `title` set in the frontmatter of a page, followed by the `separator` (surrounded by spaces), and the `suffix` is used.
 
-Hyas SEO generates the following meta tag — for example:
+Thulite SEO generates the following meta tag — for example:
 
 ```html
 <title>Example Guide | My Docs</title>

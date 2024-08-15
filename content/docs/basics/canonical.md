@@ -31,8 +31,8 @@ If you do not specify a custom canonical URL, the [Permalink](https://gohugo.io/
 
 ## Generated meta tag
 
-Hyas SEO generates the following meta tag — for example:
+Thulite SEO generates the following meta tag — for example:
 
 ```html
-<link rel="canonical" href="https://seo.gethyas.com/docs/basics/canonical/">
+<link rel="canonical" href="https://seo.thulite.io/docs/basics/canonical/">
 ```

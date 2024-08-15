@@ -14,11 +14,11 @@ seo:
   robots: "" # custom robot tags (optional)
 ---
 
-SEO is the official SEO integration for the [Hyas](https://gethyas.com/) framework. This guide will help you get started with SEO already installed. See the [manual setup instructions](/docs/start-here/manual-setup/) to add SEO to an existing Hyas project.
+SEO is the official SEO integration for the [Thulite](https://thulite.io/) framework. This guide will help you get started with SEO already installed. See the [manual setup instructions](/docs/start-here/manual-setup/) to add SEO to an existing Thulite project.
 
 ## Quick start
 
-To follow this guide, you'll need an existing Hyas project with SEO installed.
+To follow this guide, you'll need an existing Thulite project with SEO installed.
 
 ### Check if SEO is installed
 
@@ -60,7 +60,7 @@ This will print the version of the package installed. If nothing is printed, you
 
 ## Updating SEO
 
-SEO is a Hyas integration, and is updated like any `@hyas/*` integration (or theme):
+SEO is a Thulite integration, and is updated like any `@hyas/*` integration (or theme):
 
 {{< tabs "update-images" >}}
 {{< tab "npm" >}}
@@ -92,6 +92,6 @@ See the [SEO changelog](https://github.com/gethyas/seo/blob/main/CHANGELOG.md) f
 
 Use the [Settings](/docs/reference/settings/), [Parameters](/docs/reference/parameters/), and [Page Frontmatter](/docs/reference/page-frontmatter/) reference pages to ensure that SEO is configured and functioning properly. See the guides in the sidebar for topic-specific help.
 
-If your answer cannot be found in these docs, please visit the [full Hyas Docs](https://docs.gethyas.com/) for complete Hyas documentation. Your question may be answered by understanding how Hyas works in general, underneath this SEO integration.
+If your answer cannot be found in these docs, please visit the [full Thulite Docs](https://docs.thulite.io/) for complete Thulite documentation. Your question may be answered by understanding how Thulite works in general, underneath this SEO integration.
 
-You can also check for any known [SEO issues on GitHub](https://github.com/gethyas/seo/issues), and get help in [Hyas Discussions](https://github.com/gethyas/hyas/discussions) from our active, friendly community!
+You can also check for any known [SEO issues on GitHub](https://github.com/gethyas/seo/issues), and get help in [Thulite Discussions](https://github.com/gethyas/hyas/discussions) from our active, friendly community!

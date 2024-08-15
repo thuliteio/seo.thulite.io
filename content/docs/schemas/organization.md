@@ -26,7 +26,7 @@ You can set `type`, `logo`, `name`, `sameAs`, and `images` in `config/_default/p
   [seo.schemas]
     type = "Organization" # Organization (default) or Person
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
-    name = "Hyas" # Name of Organization or Person
+    name = "Thulite" # Name of Organization or Person
     sameAs = ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"] # E.g. ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"]
     images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections
@@ -37,7 +37,7 @@ You can set `type`, `logo`, `name`, `sameAs`, and `images` in `config/_default/p
 
 ## Generated meta tag
 
-Hyas SEO generates the following meta tag (if applicable, homepage only) — for example:
+Thulite SEO generates the following meta tag (if applicable, homepage only) — for example:
 
 ```html
 <script type="application/ld+json">
@@ -46,19 +46,19 @@ Hyas SEO generates the following meta tag (if applicable, homepage only) — for
   "@graph": [
     {
       "@type": "Organization",
-      "url": "https://gethyas.com/",
-      "name": "Hyas",
+      "url": "https://thulite.io/",
+      "name": "Thulite",
       "sameAs": [
-        "https://github.com/gethyas/hyas", 
+        "https://github.com/gethyas/hyas",
         "https://fosstodon.org/@hyas"
       ],
       "image": [
         {
-          "@id": "https://gethyas.com/cover.png"
+          "@id": "https://thulite.io/cover.png"
         }
       ],
       "logo": {
-        "@id": "https://gethyas.com/favicon-512x512.png"
+        "@id": "https://thulite.io/favicon-512x512.png"
       }
     }
   ]
