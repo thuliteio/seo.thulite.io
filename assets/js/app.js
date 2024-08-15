@@ -14,7 +14,7 @@ import 'js/to-top.js';
 import 'js/tabs.js';
 
 // Import spotlight.js
-import 'js/spotlight.js';
+// import 'js/spotlight.js';
 
 // Import custom.js
 import 'js/custom.js';
