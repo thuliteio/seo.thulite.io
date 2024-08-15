@@ -37,7 +37,7 @@ You can set `type`, `name`, `sameAs`, and `images` in `config/_default/params.to
 
 ## Generated meta tag
 
-Hyas SEO generates the following meta tag (if applicable, homepage only) — for example:
+Thulite SEO generates the following meta tag (if applicable, homepage only) — for example:
 
 ```html
 <script type="application/ld+json">

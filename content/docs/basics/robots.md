@@ -35,7 +35,7 @@ See Google Search Central for [Valid indexing and serving rules](https://develop
 
 ## Generated meta tags
 
-Hyas SEO generates the following meta tag (if applicable) — for example:
+Thulite SEO generates the following meta tag (if applicable) — for example:
 
 ```html
 <meta name="robots" content="noindex, nofollow">

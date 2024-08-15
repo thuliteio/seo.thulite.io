@@ -26,7 +26,7 @@ You can set `article` in `config/_default/params.toml`:
   [seo.schemas]
     type = "Organization" # Organization (default) or Person
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
-    name = "Hyas" # Name of Organization or Person
+    name = "Thulite" # Name of Organization or Person
     sameAs = ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"] # E.g. ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"]
     images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections
@@ -37,7 +37,7 @@ You can set `article` in `config/_default/params.toml`:
 
 ## Generated meta tag
 
-Hyas SEO generates the following meta tag (if applicable) — for example:
+Thulite SEO generates the following meta tag (if applicable) — for example:
 
 ```html
 <script type="application/ld+json">
@@ -58,12 +58,12 @@ Hyas SEO generates the following meta tag (if applicable) — for example:
       "dateModified": "2023-09-07T16:27:22+02:00",
       "author": {
         "@type": "Organization",
-        "name": "Hyas",
+        "name": "Thulite",
         "url": "https://getdoks.org/"
       },
       "publisher": {
         "@type": "Organization",
-        "name": "Hyas"
+        "name": "Thulite"
       }
     }
   ]

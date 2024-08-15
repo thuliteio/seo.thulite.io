@@ -26,7 +26,7 @@ You can set `product` in `config/_default/params.toml`:
   [seo.schemas]
     type = "Organization" # Organization (default) or Person
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
-    name = "Hyas" # Name of Organization or Person
+    name = "Thulite" # Name of Organization or Person
     sameAs = ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"] # E.g. ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"]
     images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections
@@ -54,7 +54,7 @@ seo:
 
 ## Generated meta tag
 
-Hyas SEO generates the following meta tag (if applicable) — for example:
+Thulite SEO generates the following meta tag (if applicable) — for example:
 
 ```html
 <script type="application/ld+json">
@@ -64,19 +64,19 @@ Hyas SEO generates the following meta tag (if applicable) — for example:
     {
       "@type": "Product",
       "name": "Doks",
-      "description": "Doks theme for Hyas sites.",
+      "description": "Doks theme for Thulite sites.",
       "brand": {
         "@type": "Brand",
-        "name": "Hyas"
+        "name": "Thulite"
       },
       "image": [
         {
-          "@id": "https://gethyas.com/themes/doks/featured-doks.png"
+          "@id": "https://thulite.io/themes/doks/featured-doks.png"
         }
       ],
       "offers": {
         "@type": "Offer",
-        "url": "https://gethyas.com/themes/doks/",
+        "url": "https://thulite.io/themes/doks/",
         "priceCurrency": "USD",
         "price": "0",
         "availability": "https://schema.org/OnlineOnly"

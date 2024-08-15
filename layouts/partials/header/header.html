@@ -20,10 +20,10 @@
     <!-- Site title -->
     <a class="navbar-brand me-auto" href="{{ site.BaseURL | relLangURL }}">
       <span class="visually-hidden">{{ .Site.Title }}</span>
-      {{ partial "inline-svg" (dict "src" "svgs/logos/hyas-logo-semibold-wide.svg" "width" "80px" "height" "100%" "class" "svg-inline-custom svg-monochrome") }}
+      {{ partial "inline-svg" (dict "src" "svgs/logos/thulite-logo-semibold-wide.svg" "width" "110px" "height" "100%" "class" "svg-inline-custom svg-monochrome") }}
     </a>
     <div class="vr mx-lg-3 d-none d-lg-block"></div>
-    <span class="navbar-text fs-5 d-none d-lg-block ms-lg-0 me-lg-3">{{ site.Params.subTitle }}</span>
+    <span class="navbar-text fs-5 d-none d-lg-block ms-lg-0 me-lg-3 lh-1">{{ site.Params.subTitle }}</span>
 
     <!-- FlexSearch mobile -->
     {{ partial "main/showFlexSearch" . }}
@@ -101,7 +101,7 @@
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasNavMainLabel">
           <span class="visually-hidden">{{ site.Title }}</span>
-          {{ partial "inline-svg" (dict "src" "svgs/logos/hyas-logo-semibold-wide.svg" "width" "70px" "height" "100%" "class" "svg-inline-custom svg-monochrome") }}
+          {{ partial "inline-svg" (dict "src" "svgs/logos/thulite-logo-semibold-wide.svg" "width" "100px" "height" "100%" "class" "svg-inline-custom svg-monochrome mb-2") }}
         </h5>
         <button type="button" class="btn btn-link nav-link p-0 ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">

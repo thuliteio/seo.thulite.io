@@ -28,7 +28,7 @@ No settings.
 
 ## Generated meta tags
 
-Hyas SEO generates the following meta tag (if applicable) — for example:
+Thulite SEO generates the following meta tag (if applicable) — for example:
 
 ```html
 <base href="http://example.com/">

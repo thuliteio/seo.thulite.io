@@ -32,9 +32,9 @@ For example, to generate feeds for home and section pages, but not for taxonomy 
 
 ## Generated meta tags
 
-Hyas uses [AlternativeOutputFormats](https://gohugo.io/methods/page/alternativeoutputformats/) to return a slice of OutputFormat objects, excluding the current output format, each representing one of the output formats enabled for the given page.
+Thulite uses [AlternativeOutputFormats](https://gohugo.io/methods/page/alternativeoutputformats/) to return a slice of OutputFormat objects, excluding the current output format, each representing one of the output formats enabled for the given page.
 
-Hyas SEO generates the following meta tags (if applicable) — for example:
+Thulite SEO generates the following meta tags (if applicable) — for example:
 
 ```html
 <link rel="alternate" type="application/rss+xml" href="https://getdoks.org/index.xml" title="My Docs">

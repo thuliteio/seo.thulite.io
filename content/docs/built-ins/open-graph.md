@@ -22,7 +22,7 @@ You can set in `config/_default/params.toml`:
 
 ```toml {title="params.toml"}
 # Hugo
-title = "Hyas"
+title = "Thulite"
 subTitle = "SEO"
 description = "Congrats on setting up a new Doks project!"
 images = ["cover.png"]
@@ -48,16 +48,16 @@ tags = []
 
 ## Generated meta tags
 
-Hyas SEO uses the page title and description for the title and description metadata. The first 6 URLs from the `images` array are used for image metadata. If [page bundles](https://gohugo.io/content-management/page-bundles/) are used and the `images` array is empty or undefined, images with file names matching `*feature*`, `*cover*`, or `*thumbnail*` are used for image metadata.
+Thulite SEO uses the page title and description for the title and description metadata. The first 6 URLs from the `images` array are used for image metadata. If [page bundles](https://gohugo.io/content-management/page-bundles/) are used and the `images` array is empty or undefined, images with file names matching `*feature*`, `*cover*`, or `*thumbnail*` are used for image metadata.
 
-Hyas SEO also uses various optional metadata set:
+Thulite SEO also uses various optional metadata set:
 
 - Date, published date, and last modified data are used to set the published time metadata if specified.
 - `audio` and `videos` are URL arrays like `images` for the audio and video metadata tags, respectively.
 - The first 6 `tags` on the page are used for the tags metadata.
 - The `series` taxonomy is used to specify related “see also” pages by placing them in the same series.
 
-Hyas SEO generates the following meta tags — for example:
+Thulite SEO generates the following meta tags — for example:
 
 ```html
 <meta property="og:title" content="Welcome to Doks">

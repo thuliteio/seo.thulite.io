@@ -22,7 +22,7 @@ You can set in `config/_default/params.toml`:
 
 ```toml {title="params.toml"}
 # Hugo
-title = "Hyas"
+title = "Thulite"
 subTitle = "SEO"
 description = "Congrats on setting up a new Doks project!"
 images = ["cover.png"]
@@ -44,11 +44,11 @@ images = ["post-cover.png"]
 
 ## Generated meta tags
 
-If images aren't specified in the page front-matter, Hyas SEO searches for [image page resources](https://gohugo.io/content-management/image-processing/) with `feature`, `cover`, or `thumbnail` in their name. If no image resources with those names are found, the images defined in `config/_default/params.toml` are used instead. If no images are found at all, then an image-less Twitter `summary` card is used instead of `summary_large_image`.
+If images aren't specified in the page front-matter, Thulite SEO searches for [image page resources](https://gohugo.io/content-management/image-processing/) with `feature`, `cover`, or `thumbnail` in their name. If no image resources with those names are found, the images defined in `config/_default/params.toml` are used instead. If no images are found at all, then an image-less Twitter `summary` card is used instead of `summary_large_image`.
 
-Hyas SEO uses the page title and description for the card’s title and description fields. The page summary is used if no description is given.
+Thulite SEO uses the page title and description for the card’s title and description fields. The page summary is used if no description is given.
 
-Hyas SEO generates the following meta tags — for example:
+Thulite SEO generates the following meta tags — for example:
 
 ```html
 <meta name="twitter:card" content="summary_large_image">

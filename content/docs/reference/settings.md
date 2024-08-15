@@ -18,7 +18,7 @@ This reference guide describes the [SEO settings](/docs/start-here/customizing-s
 
 ## title
 
-A string containing the website's title — for example `"Hyas"`
+A string containing the website's title — for example `"Thulite"`
 
 ## enableRobotsTXT
 
