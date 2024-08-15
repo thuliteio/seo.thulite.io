@@ -1,1 +1,1 @@
-# seo.gethyas.com
+# seo.thulite.io

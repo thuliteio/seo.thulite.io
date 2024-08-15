@@ -64,7 +64,7 @@ module.exports = {
           './node_modules/@hyas/doks-core/assets/scss/components/_expressive-code.scss',
           './node_modules/@hyas/doks-core/assets/scss/common/_syntax.scss',
           // './node_modules/@docsearch/css/dist/modal.css',
-          './node_modules/spotlight.js/dist/css/spotlight.min.css',
+          // './node_modules/spotlight.js/dist/css/spotlight.min.css',
         ]),
       ],
     }),
