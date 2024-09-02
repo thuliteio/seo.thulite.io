@@ -21,7 +21,7 @@ The `<title>` HTML element defines the document's title that is shown in a brows
 You can set a `separator` and a `suffix` in `config/_default/params.toml`:
 
 ```toml {title="params.toml"}
-# SEO (@hyas/seo)
+# SEO (@thulite/seo)
 [seo]
   [seo.title]
     separator = "" # "|" (default)

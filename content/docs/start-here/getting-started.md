@@ -28,21 +28,21 @@ Check if SEO is installed by running the following command in your project's roo
 {{< tab "npm" >}}
 
 ```bash
-npm list @hyas/seo
+npm list @thulite/seo
 ```
 
 {{< /tab >}}
 {{< tab "pnpm" >}}
 
 ```bash
-pnpm list @hyas/seo --depth 1
+pnpm list @thulite/seo --depth 1
 ```
 
 {{< /tab >}}
 {{< tab "Yarn" >}}
 
 ```bash
-yarn list @hyas/seo --depth=1
+yarn list @thulite/seo --depth=1
 ```
 
 {{< /tab >}}
@@ -60,33 +60,33 @@ This will print the version of the package installed. If nothing is printed, you
 
 ## Updating SEO
 
-SEO is a Thulite integration, and is updated like any `@hyas/*` integration (or theme):
+SEO is a Thulite integration, and is updated like any `@thulite/*` integration (or theme):
 
 {{< tabs "update-images" >}}
 {{< tab "npm" >}}
 
 ```bash
-npm install @hyas/seo@latest
+npm install @thulite/seo@latest
 ```
 
 {{< /tab >}}
 {{< tab "pnpm" >}}
 
 ```bash
-pnpm upgrade @hyas/seo --latest
+pnpm upgrade @thulite/seo --latest
 ```
 
 {{< /tab >}}
 {{< tab "Yarn" >}}
 
 ```bash
-yarn upgrade @hyas/seo --latest
+yarn upgrade @thulite/seo --latest
 ```
 
 {{< /tab >}}
 {{< /tabs >}}
 
-See the [SEO changelog](https://github.com/gethyas/seo/blob/main/CHANGELOG.md) for a full list of the changes made in each release.
+See the [SEO changelog](https://github.com/thuliteio/seo/blob/main/CHANGELOG.md) for a full list of the changes made in each release.
 
 ## Troubleshooting SEO
 
@@ -94,4 +94,4 @@ Use the [Settings](/docs/reference/settings/), [Parameters](/docs/reference/para
 
 If your answer cannot be found in these docs, please visit the [full Thulite Docs](https://docs.thulite.io/) for complete Thulite documentation. Your question may be answered by understanding how Thulite works in general, underneath this SEO integration.
 
-You can also check for any known [SEO issues on GitHub](https://github.com/gethyas/seo/issues), and get help in [Thulite Discussions](https://github.com/gethyas/hyas/discussions) from our active, friendly community!
+You can also check for any known [SEO issues on GitHub](https://github.com/thuliteio/seo/issues), and get help in [Thulite Discussions](https://github.com/thuliteio/thulite/discussions) from our active, friendly community!
