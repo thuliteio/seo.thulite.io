@@ -1,5 +1,5 @@
 ---
-title: "Twitter Cards"
+title: "X Cards"
 description: ""
 summary: ""
 date: 2024-03-14T20:11:18+01:00
@@ -14,7 +14,7 @@ seo:
   robots: "" # custom robot tags (optional)
 ---
 
-With [Twitter Cards](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards), you can attach rich photos, videos and media experiences to Tweets, helping to drive traffic to your website.
+With [X Cards](https://developer.x.com/en/docs/x-for-websites/cards/overview/abouts-cards), you can attach rich photos, videos and media experiences to Tweets, helping to drive traffic to your website.
 
 ## Settings
 
@@ -44,7 +44,7 @@ images = ["post-cover.png"]
 
 ## Generated meta tags
 
-If images aren't specified in the page front-matter, Thulite SEO searches for [image page resources](https://gohugo.io/content-management/image-processing/) with `feature`, `cover`, or `thumbnail` in their name. If no image resources with those names are found, the images defined in `config/_default/params.toml` are used instead. If no images are found at all, then an image-less Twitter `summary` card is used instead of `summary_large_image`.
+If images aren't specified in the page front-matter, Thulite SEO searches for [image page resources](https://gohugo.io/content-management/image-processing/) with `feature`, `cover`, or `thumbnail` in their name. If no image resources with those names are found, the images defined in `config/_default/params.toml` are used instead. If no images are found at all, then an image-less `summary` card is used instead of `summary_large_image`.
 
 Thulite SEO uses the page title and description for the card’s title and description fields. The page summary is used if no description is given.
 

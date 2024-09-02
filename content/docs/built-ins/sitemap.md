@@ -52,4 +52,4 @@ Thulite SEO generates the following `sitemap.xml` — for example:
 
 ## Resources
 
-- [Sitemap templates](https://gohugo.io/templates/sitemap-template/)
+- [Sitemap templates](https://gohugo.io/templates/sitemap/)
