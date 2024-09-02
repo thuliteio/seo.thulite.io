@@ -1,5 +1,5 @@
 ---
-"seo.gethyas.com": minor
+"seo.thulite.io": minor
 ---
 
 Update for Thulite

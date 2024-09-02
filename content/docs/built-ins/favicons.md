@@ -21,7 +21,7 @@ A favicon (favorite icon) is a tiny icon included along with a website, which is
 You can set `icon` and `svgIcon` in `config/_default/params.toml`:
 
 ```toml {title="params.toml"}
-# SEO (@hyas/seo)
+# SEO (@thulite/seo)
 [seo]
   [seo.favicons]
     icon = "favicon.png" # (required)

@@ -28,21 +28,21 @@ SEO is a [Thulite integration](https://docs.thulite.io/guides/integrations/). Ad
 {{< tab "npm" >}}
 
 ```bash
-npm install @hyas/seo@latest
+npm install @thulite/seo@latest
 ```
 
 {{< /tab >}}
 {{< tab "pnpm" >}}
 
 ```bash
-pnpm install @hyas/seo@latest
+pnpm install @thulite/seo@latest
 ```
 
 {{< /tab >}}
 {{< tab "Yarn" >}}
 
 ```bash
-yarn add @hyas/seo@latest
+yarn add @thulite/seo@latest
 ```
 
 {{< /tab >}}
@@ -57,7 +57,7 @@ Add mounts to `./config/_default/module.toml`:
 ```toml {title=module.toml}
 ## layouts
 [[mounts]]
-  source = "node_modules/@hyas/seo/layouts"
+  source = "node_modules/@thulite/seo/layouts"
   target = "layouts"
 
 [[mounts]]

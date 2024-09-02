@@ -70,7 +70,7 @@ Name of Organization or Person — for example `"Thulite"`
 
 ### sameAs
 
-`[]` (default). For example `["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"]`
+`[]` (default). For example `["https://github.com/thuliteio/thulite", "https://fosstodon.org/@thulite"]`
 
 ### images
 

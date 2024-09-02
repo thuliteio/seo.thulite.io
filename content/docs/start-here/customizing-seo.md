@@ -39,7 +39,7 @@ images = ["cover.png"]
   twitter = "getdoks"
   facebook_admin = ""
 
-# SEO (@hyas/seo)
+# SEO (@thulite/seo)
 [seo]
   [seo.title]
     separator = "" # "|" (default)
@@ -51,7 +51,7 @@ images = ["cover.png"]
     type = "Organization" # Organization (default) or Person
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
     name = "Thulite" # Name of Organization or Person
-    sameAs = [] # E.g. ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"]
+    sameAs = [] # E.g. ["https://github.com/thuliteio/thulite", "https://fosstodon.org/@thulite"]
     images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections
     newsArticle = [] # NewsArticle sections
