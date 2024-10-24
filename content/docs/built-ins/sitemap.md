@@ -25,6 +25,7 @@ See the [Sitemap reference page](/docs/reference/sitemap/) for all available val
 ```toml {title="hugo.toml"}
 [sitemap]
   changefreq = "monthly"
+  disable = false
   filename = "sitemap.xml"
   priority = 0.5
 ```
@@ -48,6 +49,26 @@ Thulite SEO generates the following `sitemap.xml` — for example:
       <loc>https://seo.thulite.io/nl/sitemap.xml</loc>
    </sitemap>
 </sitemapindex>
+```
+
+## Disable sitemap
+
+To disable the sitemap (applies to all pages unless overridden in the frontmatter of a page), set `sitemap.disable = true` in `config/_default/hugo.toml`:
+
+```toml {title="hugo.toml"}
+[sitemap]
+  disable = true
+```
+
+## Exclude a page
+
+To exclude a page from the sitemap, add to the frontmatter of the page:
+
+```md
+---
+sitemap:
+  disable: true
+---
 ```
 
 ## Resources

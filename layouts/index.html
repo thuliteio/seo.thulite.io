@@ -14,6 +14,7 @@
 </section>
 -->
 
+<!--
 <section class="section section-hero container">
   <div class="row justify-content-center">
     <div class="col-lg-9 text-center">
@@ -26,6 +27,33 @@
     </div>
   </div>
 </section>
+-->
+
+<section class="section section-hero">
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-16 col-lg-6 order-lg-1 text-center">
+        {{- $opts := dict
+          "page" .
+          "src" "svgs/search.svg"
+          "width" "325px"
+          "height" "325px"
+          "title" "Thulite SEO icon"
+          "class" "svg-inline-custom svg-hero"
+        }}
+        {{- partial "inline-svg" $opts }}
+      </div>
+      <div class="col-16 col-lg-8 text-center text-lg-start">
+        <h1 class="mt-4 mt-lg-0">{{ .Title }}</h1>
+        <p class="lead mt-2">{{ .Params.lead | safeHTML }}</p>
+        <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}start-here/getting-started/" role="button">{{ i18n "get_started" }}</a>
+        <a class="btn btn-link btn-cta rounded-pill btn-lg my-lg-3 ms-2" target="_blank" href="https://github.com/thuliteio/seo" role="button">{{ i18n "view_demo" }}<svg xmlns="http://www.w3.org/2000/svg" class="ms-1 mb-1 icon icon-tabler icon-tabler-external-link" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" /><path d="M11 13l9 -9" /><path d="M15 4h5v5" /></svg></a>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+
 {{ end }}
 
 {{ define "sidebar-prefooter" }}
@@ -67,7 +95,7 @@
         <div class="col-lg-7">
           <div class="card">
             <div class="card-body">
-              <h2 class="card-title fs-4">{{- partial "inline-svg" (dict "src" "outline/template" "stroke-width" "1.5" "width" "1.75rem" "height" "1.75rem" "class" "svg-inline-custom me-2") }}Solid templates</h2>
+              <h2 class="card-title fs-4">{{- partial "inline-svg" (dict "src" "outline/template" "stroke-width" "1.5" "width" "1.75rem" "height" "1.75rem" "class" "svg-inline-custom mb-1 me-2") }}Solid templates</h2>
               <p class="card-text">All basic meta tags, flexible set up. Schemas for <code>WebSite</code>, <code>BreadcrumbList</code>, <code>BlogPosting</code>, and more.</p>
             </div>
           </div>
@@ -75,7 +103,7 @@
         <div class="col-lg-7">
           <div class="card">
             <div class="card-body">
-              <h2 class="card-title fs-4">{{- partial "inline-svg" (dict "src" "outline/photo" "stroke-width" "1.75" "width" "1.75rem" "height" "1.75rem" "class" "svg-inline-custom me-2") }}Share rich content</h2>
+              <h2 class="card-title fs-4">{{- partial "inline-svg" (dict "src" "outline/photo" "stroke-width" "1.5" "width" "1.75rem" "height" "1.75rem" "class" "svg-inline-custom mb-1 me-2") }}Share rich content</h2>
               <p class="card-text">Share your pages with Open Graph meta tags and X Cards meta tags — easy set up.</p>
             </div>
           </div>
@@ -83,7 +111,7 @@
         <div class="col-lg-7">
           <div class="card">
             <div class="card-body">
-              <h2 class="card-title fs-4">{{- partial "inline-svg" (dict "src" "outline/settings" "stroke-width" "1.75" "width" "1.75rem" "height" "1.75rem" "class" "svg-inline-custom me-2") }}Easy configuration</h2>
+              <h2 class="card-title fs-4">{{- partial "inline-svg" (dict "src" "outline/settings" "stroke-width" "1.5" "width" "1.75rem" "height" "1.75rem" "class" "svg-inline-custom mb-1 me-2") }}Easy configuration</h2>
               <p class="card-text">Set defaults for <code>title</code>, <code>description</code>, and <code>images</code> — override locally. Easily set the schemas you want.</p>
             </div>
           </div>
@@ -91,7 +119,7 @@
         <div class="col-lg-7">
           <div class="card">
             <div class="card-body">
-              <h2 class="card-title fs-4">{{- partial "inline-svg" (dict "src" "outline/sparkles" "stroke-width" "1.75" "width" "1.75rem" "height" "1.75rem" "class" "svg-inline-custom me-2") }}Get delighted</h2>
+              <h2 class="card-title fs-4">{{- partial "inline-svg" (dict "src" "outline/sparkles" "stroke-width" "1.5" "width" "1.75rem" "height" "1.75rem" "class" "svg-inline-custom mb-1 me-2") }}Get delighted</h2>
               <p class="card-text">Add just one square image file and get all your favicon files generated — automatically.</p>
             </div>
           </div>

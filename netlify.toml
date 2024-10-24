@@ -3,28 +3,28 @@
   functions = "functions"
 
 [build.environment]
-  NODE_VERSION = "20.11.0"
-  NPM_VERSION = "10.2.4"
-  HUGO_VERSION = "0.131.0"
+  NODE_VERSION = "20.18.0"
+  NPM_VERSION = "10.8.2"
+  HUGO_VERSION = "0.136.4"
 
 [context.production]
-  command = "pnpm build"
+  command = "bun run build"
 
 [context.deploy-preview]
-  command = "pnpm build"
+  command = "bun run build"
 
 [context.branch-deploy]
-  command = "pnpm build"
+  command = "bun run build"
 
 [context.next]
-  command = "pnpm build"
+  command = "bun run build"
 
 [context.next.environment]
   HUGO_ENV = "next"
 
 [dev]
   framework = "#custom"
-  command = "pnpm dev"
+  command = "bun run dev"
   targetPort = 1313
   port = 8888
   publish = "public"
