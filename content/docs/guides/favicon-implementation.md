@@ -16,7 +16,7 @@ seo:
 
 The Thulite SEO package handles favicon generation automatically. It takes your source files and creates all the necessary variants and HTML tags. The system will warn you if your source files are missing or not suitable for resizing.
 
-## Basic Setup
+## Basic setup
 
 1. Prepare two favicon files:
    - `favicon.png` - A PNG file (at least 512x512 pixels)
@@ -31,7 +31,7 @@ The Thulite SEO package handles favicon generation automatically. It takes your 
    - Android icons (192x192 and 512x512)
    - Web manifest file
 
-## Custom Configuration
+## Custom configuration
 
 If you need to customize the favicon filenames:
 
@@ -43,7 +43,7 @@ If you need to customize the favicon filenames:
     svgIcon = "favicon.svg" # favicon.svg (default)
 ```
 
-## How It Works
+## How it works
 
 The package:
 

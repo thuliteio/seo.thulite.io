@@ -16,7 +16,7 @@ seo:
 
 The Thulite SEO package applies different schemas based on your configuration and page context. The homepage gets Website and Organization/Person schemas, while content pages get BreadcrumbList and content-specific schemas based on their section. Make sure to test your implementation with Google's validation tools to ensure proper setup.
 
-## Basic Schema Configuration
+## Basic schema configuration
 
 Add the following to your site configuration file:
 
@@ -50,14 +50,14 @@ Add the following to your site configuration file:
   product = ["products", "store"]
 ```
 
-## Schema Types and When They're Applied
+## Schema types and when they're applied
 
 1. **Website Schema**: Applied to homepage automatically
 2. **Organization/Person Schema**: Applied to homepage based on `type` setting
 3. **BreadcrumbList Schema**: Applied to all pages except homepage
 4. **Content-specific Schemas**: Applied based on section mappings
 
-## Product Schema Configuration
+## Product schema configuration
 
 For product pages, add structured data in the front matter:
 
@@ -74,7 +74,7 @@ seo:
 ---
 ```
 
-## Testing Your Schemas
+## Testing your schemas
 
 After configuration, validate your structured data using:
 

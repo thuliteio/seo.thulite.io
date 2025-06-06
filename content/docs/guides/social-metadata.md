@@ -15,7 +15,7 @@ seo:
 ---
 The Thulite SEO package handles most OpenGraph and Twitter card metadata automatically. It uses your page content, images, and site configuration to generate appropriate tags. You can override specific values at the page level using the seo front matter section. The system is designed to follow best practices for social sharing, including proper image handling and content type specification.
 
-## Global Configuration
+## Global configuration
 
 Add social media settings to your site configuration:
 
@@ -27,7 +27,7 @@ Add social media settings to your site configuration:
   facebook_admin = "admin_id"    # Optional Facebook Admin ID
 ```
 
-## Page-Level Customization
+## Page-level customization
 
 In your content front matter:
 
@@ -42,7 +42,7 @@ seo:
 ---
 ```
 
-## Images for Social Sharing
+## Images for social sharing
 
 The package automatically uses:
 
@@ -59,12 +59,12 @@ content/
         └── featured-image.jpg  # Will be used for social cards
 ```
 
-## Twitter Card Types
+## Twitter card types
 
 - If a page has images: Uses "summary_large_image" card type
 - If no images: Uses "summary" card type
 
-## OpenGraph Metadata
+## OpenGraph metadata
 
 The package automatically generates:
 
