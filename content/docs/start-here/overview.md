@@ -54,19 +54,20 @@ bun install @thulite/seo@latest
 
 ## Features
 
-### Meta Tags
+### Meta tags
+
 - Title tags
 - Meta descriptions
 - Canonical URLs
 - Robots directives
 - Alternate language links
 
-### Open Graph & Twitter Cards
+### Open Graph & Twitter cards
 
 - Social media preview optimization
 - Image, title, and description for sharing
 
-### Structured Data (JSON-LD)
+### Structured data (JSON-LD)
 
 - Website schema
 - Organization/Person schema
@@ -76,7 +77,7 @@ bun install @thulite/seo@latest
 - NewsArticle schema
 - Product schema
 
-### Other Features
+### Other features
 
 - Favicon generation
 - Sitemap generation
@@ -84,7 +85,7 @@ bun install @thulite/seo@latest
 
 ## Configuration
 
-### Basic Configuration
+### Basic configuration
 
 Add the following to your site configuration:
 
@@ -109,7 +110,7 @@ Add the following to your site configuration:
     product = [] # Product sections
 ```
 
-### Page-level Configuration
+### Page-level configuration
 
 In your content front matter:
 
@@ -125,21 +126,21 @@ seo:
 ---
 ```
 
-## Schema Types
+## Schema types
 
-### Website Schema
+### Website schema
 
 Applied to the homepage automatically.
 
-### Organization/Person Schema
+### Organization/Person schema
 
 Applied to the homepage based on your configuration.
 
-### BreadcrumbList Schema
+### BreadcrumbList schema
 
 Applied to all pages except the homepage.
 
-### Content-specific Schemas
+### Content-specific schemas
 
 - Article: Applied to pages in sections defined in `seo.schemas.article`
 - BlogPosting: Applied to pages in sections defined in `seo.schemas.blogPosting`
