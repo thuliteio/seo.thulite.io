@@ -1,1 +1,1 @@
-# seo.thulite.io
+# SEO documentation
