@@ -1,30 +1,22 @@
+[build.environment]
+  DART_SASS_VERSION = "1.97.3"
+  GO_VERSION = "1.26.0"
+  HUGO_VERSION = "0.156.0"
+  NODE_VERSION = "24.13.1"
+  NPM_VERSION = "11.8.0"
+  TZ = "Europe/Amsterdam"
+
 [build]
   publish = "public"
-  functions = "functions"
-
-[build.environment]
-  NODE_VERSION = "20.18.0"
-  NPM_VERSION = "10.8.2"
-  HUGO_VERSION = "0.136.4"
-
-[context.production]
-  command = "bun run build"
-
-[context.deploy-preview]
-  command = "bun run build"
-
-[context.branch-deploy]
-  command = "bun run build"
-
-[context.next]
-  command = "bun run build"
-
-[context.next.environment]
-  HUGO_ENV = "next"
+  command = """\
+  git config core.quotepath false && \
+  npm install && \
+  hugo build --gc --minify --baseURL "${URL}"
+  """
 
 [dev]
   framework = "#custom"
-  command = "bun run dev"
+  command = "npm run dev"
   targetPort = 1313
   port = 8888
   publish = "public"
@@ -36,6 +28,11 @@
   to = "https://seo.thulite.io/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/404/"
+  status = 404
 
 # Custom headers — https://docs.netlify.com/routing/headers/#syntax-for-the-netlify-configuration-file
 [[headers]]

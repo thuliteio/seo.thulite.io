@@ -2,10 +2,14 @@
 title = "Thulite"
 subTitle = "SEO"
 description = "Everything you need to make your Thulite website more visible in search results. Solid setup and easy to use."
-images = ["cover-seo.png"]
+images = ["cover.png"]
 
 # mainSections
 mainSections = ["docs"]
+
+# Enable mathematical rendering on every page (unless you set the `math` parameter to `false` in front matter)
+math = false # false (default) or true
+mathEngine = "KaTeX" # "KaTeX" (default) or "MathJax"
 
 [social]
   twitter = "getdoks"
@@ -52,6 +56,7 @@ mainSections = ["docs"]
   bootstrapJavascript = false # false (default) or true
 
   # Nav
+  sectionSwitcher = false # true or false (default)
   sectionNav = ["docs"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
   toTopButton = false # false (default) or true
   breadcrumbTrail = false # false (default) or true
@@ -67,11 +72,12 @@ mainSections = ["docs"]
   docsVersion = "1.0"
 
   # UX
+  aiButtons = true # true (default) or false
   headerBar = false # true (default) or false
   backgroundDots = false # true (default) or false
 
   # Homepage
-  sectionFooter = true # false (default) or true
+  sectionFooter = false # false (default) or true
 
   # Blog
   relatedPosts = false # false (default) or true
@@ -80,7 +86,7 @@ mainSections = ["docs"]
 
   # Repository
   editPage = true # false (default) or true
-  lastMod = false # false (default) or true
+  lastMod = true # false (default) or true
   repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
   docsRepo = "https://github.com/thuliteio/seo.thulite.io"
   docsRepoBranch = "main" # main (default), master, or <branch name>
@@ -122,12 +128,19 @@ mainSections = ["docs"]
 # Inline SVG (@thulite/inline-svg)
 [inline_svg]
   iconSetDir = "tabler-icons" # "tabler-icons" (default)
+  iconSetVariant = "outline" # outline (default) or filled
 
 # SEO (@thulite/seo)
 [seo]
   [seo.title]
     separator = "—"
     suffix = ""
+  [seo.description]
+    summaryFallback = "" # "" (default)
+  [seo.description.length]
+    errorlevel = "warning" # warning (default), error, or ignore
+    min = 110
+    max = 160
   [seo.favicons]
     icon = "favicon.png" # favicon.png (default)
     svgIcon = "favicon.svg" # favicon.svg (default)
@@ -136,7 +149,7 @@ mainSections = ["docs"]
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
     name = "Thulite" # Name of Organization or Person
     sameAs = ["https://github.com/thuliteio/thulite", "https://x.com/thuliteio", "https://fosstodon.org/@thulite"] # E.g. ["https://github.com/thuliteio/thulite", "https://fosstodon.org/@thulite"]
-    images = ["cover-seo.png"] # ["cover.png"] (default)
+    images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections
     newsArticle = [] # NewsArticle sections
     blogPosting = [] # BlogPosting sections
