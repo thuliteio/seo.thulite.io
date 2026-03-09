@@ -96,5 +96,9 @@
   target = "static"
 
 [[mounts]]
+  source = "node_modules/@fontsource-variable/geist-mono"
+  target = "static/fonts/geist-mono"
+
+[[mounts]]
   source = "static"
   target = "static"
