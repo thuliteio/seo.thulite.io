@@ -7,6 +7,10 @@ images = ["cover-seo.png"]
 # mainSections
 mainSections = ["docs"]
 
+# Enable mathematical rendering on every page (unless you set the `math` parameter to `false` in front matter)
+math = false # false (default) or true
+mathEngine = "KaTeX" # "KaTeX" (default) or "MathJax"
+
 [social]
   twitter = "getdoks"
   facebook_admin = ""
@@ -52,6 +56,7 @@ mainSections = ["docs"]
   bootstrapJavascript = false # false (default) or true
 
   # Nav
+  sectionSwitcher = false # true or false (default)
   sectionNav = ["docs"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
   toTopButton = false # false (default) or true
   breadcrumbTrail = false # false (default) or true
@@ -67,6 +72,7 @@ mainSections = ["docs"]
   docsVersion = "1.0"
 
   # UX
+  aiButtons = true # true (default) or false
   headerBar = false # true (default) or false
   backgroundDots = false # true (default) or false
 
@@ -122,12 +128,19 @@ mainSections = ["docs"]
 # Inline SVG (@thulite/inline-svg)
 [inline_svg]
   iconSetDir = "tabler-icons" # "tabler-icons" (default)
+  iconSetVariant = "outline" # outline (default) or filled
 
 # SEO (@thulite/seo)
 [seo]
   [seo.title]
     separator = "—"
     suffix = ""
+  [seo.description]
+    summaryFallback = "" # "" (default)
+  [seo.description.length]
+    errorlevel = "warning" # warning (default), error, or ignore
+    min = 110
+    max = 160
   [seo.favicons]
     icon = "favicon.png" # favicon.png (default)
     svgIcon = "favicon.svg" # favicon.svg (default)
