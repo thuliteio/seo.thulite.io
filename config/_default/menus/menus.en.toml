@@ -29,27 +29,27 @@
   url = "/tutorial/lorem/"
 
 [[main]]
-  name = "Docs"
+  name = "Documentation"
   url = "/docs/start-here/getting-started/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
-# [[main]]
-#   name = "Blog"
-#   url = "/blog/"
-#   weight = 15
+[[main]]
+  name = "Blog"
+  url = "https://thulite.io/blog/"
+  weight = 15
 
 [[main]]
-  name = "Discussions"
+  name = "Community"
   url = "https://github.com/orgs/thuliteio/discussions"
   post = '<svg xmlns="http://www.w3.org/2000/svg" class="ms-1 mb-1 icon icon-tabler icon-tabler-external-link" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" /><path d="M11 13l9 -9" /><path d="M15 4h5v5" /></svg>'
   weight = 20
 
-[[main]]
-  name = "Thulite"
-  url = "https://thulite.io"
-  post = '<svg xmlns="http://www.w3.org/2000/svg" class="ms-1 mb-1 icon icon-tabler icon-tabler-external-link" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" /><path d="M11 13l9 -9" /><path d="M15 4h5v5" /></svg>'
-  weight = 30
+# [[main]]
+#   name = "Thulite"
+#   url = "https://thulite.io"
+#   post = '<svg xmlns="http://www.w3.org/2000/svg" class="ms-1 mb-1 icon icon-tabler icon-tabler-external-link" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" /><path d="M11 13l9 -9" /><path d="M15 4h5v5" /></svg>'
+#   weight = 30
 
 # [[main]]
 #   name = "Other docs"
