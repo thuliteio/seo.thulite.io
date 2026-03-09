@@ -1,3 +1,7 @@
 <!-- Insert scripts NOT needed by stylesheets here -->
-{{ $plausibleDomain := site.Params.add_ons.plausibleDomain -}}
-<script defer data-domain="{{ $plausibleDomain }}" src="https://plausible.io/js/script.js"></script>
+<!-- Privacy-friendly analytics by Plausible -->
+<script async src="https://plausible.io/js/pa-JGJin5O13BzXfM9-em6Uq.js"></script>
+<script>
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+  plausible.init()
+</script>
