@@ -1,5 +1,11 @@
 # seo.thulite.io
 
+## 1.1.1
+
+### Patch Changes
+
+- [#7](https://github.com/thuliteio/seo.thulite.io/pull/7) [`090e34c`](https://github.com/thuliteio/seo.thulite.io/commit/090e34cf8d9169710ee29d825cc74edd098bbc5f) Thanks [@h-enk](https://github.com/h-enk)! - Update for Doks 1.9
+
 ## 1.1.0
 
 ### Minor Changes
