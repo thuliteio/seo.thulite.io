@@ -1,16 +1,30 @@
 // Put your custom SCSS code here
 .section-hero {
-  margin-top: 1.5rem;
-  padding-bottom: 0;
+  padding: 1.5rem 0;
 }
 
 @include media-breakpoint-up(lg) {
   .section-hero {
-    margin-top: 0.5rem;
+    padding: 3rem 0;
+  }
+}
+
+.home .content .card:hover {
+    transform: none;
+}
+
+.card-hero {
+  padding: 1rem;
+}
+
+@include media-breakpoint-up(lg) {
+  .card-hero {
+    padding: 3rem 1rem;
   }
 }
 
 .section-credits {
+  background: yellowgreen;
   padding-top: 2.5rem;
   margin-bottom: 2.5rem;
 }
@@ -40,6 +54,10 @@
 }
 
 .section-cards {
+  // background: yellowgreen;
+
+  padding: 3rem 0;
+
   .card {
     margin: 0;
     padding: 1rem;
@@ -51,12 +69,14 @@
   }
 }
 
+/*
 @include media-breakpoint-up(lg) {
   .section-cards .col-lg-7:nth-child(2n) .card {
     margin-top: 3rem;
     margin-bottom: -3rem;
   }
 }
+  */
 
 .content dl dt {
   margin-bottom: 0.5rem;
@@ -120,25 +140,6 @@ body.home .navbar-blur {
 }
 */
 
-.home .section-hero {
-  padding-top: 3rem;
-  padding-bottom: 0rem;
-}
-
-@include media-breakpoint-up(lg) {
-  .home .section-hero {
-    padding-top: 6rem;
-    padding-bottom: 2rem;
-  }
-}
-
-@include media-breakpoint-down(lg) {
-  .svg-hero {
-    width: 175px;
-    height: 175px;
-  }
-}
-
 @include media-breakpoint-up(md) {
     body {
       font-size: $font-size-base;
@@ -149,3 +150,43 @@ body.home .navbar-blur {
       font-size: 0.9375rem;
     }
   }
+
+//
+
+.link--text {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $body-secondary-color;
+  }
+
+}
+
+@include color-mode(dark) {
+  .link--text {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.15em;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $body-secondary-color-dark;
+    }
+
+  }
+}
+
+.footer .text-muted {
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.15em;
+    }
+}
