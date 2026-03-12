@@ -1,30 +1,16 @@
 // Put your custom SCSS code here
 .section-hero {
-  padding: 1.5rem 0;
+  margin-top: 1.5rem;
+  padding-bottom: 0;
 }
 
 @include media-breakpoint-up(lg) {
   .section-hero {
-    padding: 1.5rem 0;
-  }
-}
-
-.home .content .card:hover {
-    transform: none;
-}
-
-.card-hero {
-  padding: 1rem;
-}
-
-@include media-breakpoint-up(lg) {
-  .card-hero {
-    padding: 2rem 1rem;
+    margin-top: 0.5rem;
   }
 }
 
 .section-credits {
-  background: yellowgreen;
   padding-top: 2.5rem;
   margin-bottom: 2.5rem;
 }
@@ -54,10 +40,6 @@
 }
 
 .section-cards {
-  // background: yellowgreen;
-
-  padding: 3rem 0;
-
   .card {
     margin: 0;
     padding: 1rem;
@@ -69,14 +51,12 @@
   }
 }
 
-/*
 @include media-breakpoint-up(lg) {
   .section-cards .col-lg-7:nth-child(2n) .card {
     margin-top: 3rem;
     margin-bottom: -3rem;
   }
 }
-  */
 
 .content dl dt {
   margin-bottom: 0.5rem;
@@ -89,69 +69,16 @@
 }
 
 .navbar-brand {
-  font-weight: 300;
-}
-
-/*
-.navbar-brand .thulite-logo-semibold-wide {
-  width: 110px;
-  height: 100%;
-}
-
-@include media-breakpoint-down(lg) {
-  .navbar-brand .thulite-logo-semibold-wide {
-      width: 100px;
-      height: 100%;
-  }
-}
-
-.navbar-brand {
+  font-family: $font-family-monospace;
+  font-weight: $headings-font-weight;
   margin-right: auto;
 }
 
-
-@include media-breakpoint-up(lg) {
+@include color-mode(dark) {
   .navbar-brand {
-    margin-right: 0 !important;
+    color: $white;
   }
 }
-
-// Source: https://stackoverflow.com/a/5293792
-body.home .navbar {
-  border-bottom: 1px solid transparent;
-  background-color: transparent;
-}
-
-body.home .navbar-blur {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 58px;
-  z-index: -1;
-  -webkit-backdrop-filter: blur(16px);
-  backdrop-filter: blur(16px);
-}
-
-@include media-breakpoint-up(lg) {
-  body.home .navbar-blur {
-    height: 68px;
-  }
-}
-*/
-
-@include media-breakpoint-up(md) {
-    body {
-      font-size: $font-size-base;
-    }
-
-    .edit-page a,
-    .last-modified a {
-      font-size: 0.9375rem;
-    }
-  }
-
-//
 
 .link--text {
   text-decoration: underline;
@@ -161,7 +88,10 @@ body.home .navbar-blur {
   &:hover,
   &:focus,
   &:active {
-    color: $body-secondary-color;
+    color: $link-color;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.15em;
   }
 
 }
@@ -175,7 +105,10 @@ body.home .navbar-blur {
     &:hover,
     &:focus,
     &:active {
-      color: $body-secondary-color-dark;
+      color: $link-color-dark;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.15em;
     }
 
   }
@@ -189,4 +122,8 @@ body.home .navbar-blur {
       text-decoration-thickness: 1px;
       text-underline-offset: 0.15em;
     }
+}
+
+.expressive-code pre > code {
+  font-family: $font-family-monospace;
 }

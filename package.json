@@ -16,6 +16,7 @@
     "preview": "vite preview --outDir public"
   },
   "dependencies": {
+    "@fontsource-variable/geist": "^5.2.8",
     "@fontsource-variable/geist-mono": "^5.2.7",
     "@tabler/icons": "^3.36.1",
     "@thulite/doks-core": "^1.9.3",
