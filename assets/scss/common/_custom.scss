@@ -1,32 +1,21 @@
 // Put your custom SCSS code here
-.section-hero {
-  margin-top: 1.5rem;
-  padding-bottom: 0;
+.home .navbar {
+  border-bottom: 1px solid $gray-200;
 }
 
-@include media-breakpoint-up(lg) {
-  .section-hero {
-    margin-top: 0.5rem;
+.home .border-top {
+  border-top: 1px solid $gray-200 !important;
+}
+
+@include color-mode(dark) {
+  body.home .navbar {
+    border-bottom: 1px solid $border-dark;
+  }
+
+  .home .border-top {
+    border-top: 1px solid $border-dark !important;
   }
 }
-
-.section-credits {
-  padding-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-@include media-breakpoint-up(lg) {
-  .section-credits {
-    padding-top: 4.5rem;
-    margin-bottom: 4.5rem;
-  }
-}
-
-/*
-.home .footer {
-  @include visually-hidden;
-}
-*/
 
 .btn-toggle {
   text-transform: none;
