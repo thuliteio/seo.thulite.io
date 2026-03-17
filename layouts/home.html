@@ -1,41 +1,40 @@
 {{ define "sidebar-prefooter" }}
   <section class="section-header">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-10">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
           <h1 class="mt-1">{{ .Title }}</h1>
-          <p class="lead">{{ .Params.lead | safeHTML }}</p>
+          <p class="lead text-muted">{{ .Params.lead | safeHTML }}</p>
           <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}start-here/getting-started/" role="button">{{ i18n "get_started" }}</a>
           {{ .Content }}
         </div>
-        <div class="col-lg-5"></div>
       </div>
     </div>
   </section>
+
   <section class="section-main border-top">
     <div class="container">
-      <div class="row justify-content-center gy-2">
-        <div class="col-lg-5">
+      <div class="row gy-2">
+        <div class="col-lg-5 offset-lg-1">
           <h2 class="fs-4">Technical SEO</h2>
-          <p>Meta tags, canonical URLs, and robots directives are generated automatically.</p>
+          <p class="text-muted">Meta tags, canonical URLs, and robots directives are generated automatically.</p>
         </div>
         <div class="col-lg-5">
           <h2 class="fs-4">Structured data</h2>
-          <p>Built-in JSON-LD schemas help search engines understand your content.</p>
+          <p class="text-muted">Built-in JSON-LD schemas help search engines understand your content.</p>
         </div>
         <div class="col-lg-5">
           <h2 class="fs-4">Social previews</h2>
-          <p>Open Graph and X Card metadata ensure consistent link previews everywhere.</p>
+          <p class="text-muted">Open Graph and X Card metadata ensure consistent link previews everywhere.</p>
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-5 offset-lg-1">
           <h2 class="fs-4">Flexible settings</h2>
-          <p>Define global defaults and override them per page when needed.</p>
+          <p class="text-muted">Define global defaults and override them per page when needed.</p>
         </div>
         <div class="col-lg-5">
           <h2 class="fs-4">Automated utilities</h2>
-          <p>Sitemaps and favicon sets are generated for you.</p>
+          <p class="text-muted">Sitemaps and favicon sets are generated for you.</p>
         </div>
-        <div class="col-lg-5"></div>
       </div>
     </div>
   </section>
@@ -44,8 +43,8 @@
 {{ define "sidebar-footer" }}
   <section class="section-footer border-top">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-5">
+      <div class="row">
+        <div class="col-lg-5  offset-lg-1">
           <h2 class="fs-4 mt-3">Documentation</h2>
           <ul class="list-unstyled">
             <li><a class="link link--text" href="https://docs.thulite.io/">Thulite</a></li>
@@ -55,8 +54,6 @@
             <li><a class="link link--text" href="https://getdoks.org/">Doks</a></li>
           </ul>
         </div>
-        <div class="col-lg-5"></div>
-        <div class="col-lg-5"></div>
       </div>
     </div>
   </section>
