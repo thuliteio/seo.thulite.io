@@ -29,6 +29,10 @@
   padding: 1rem 0;
 }
 
+.home .btn-lg {
+  font-size: 1.125rem;
+}
+
 @include media-breakpoint-up(lg) {
   .section-header {
     padding: 5rem 0;
@@ -40,6 +44,10 @@
 
   .section-footer {
     padding: 3rem 0;
+  }
+
+  .home .btn-lg {
+    font-size: 1.1875rem;
   }
 }
 
