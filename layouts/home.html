@@ -1,39 +1,66 @@
 {{ define "sidebar-prefooter" }}
+  <div aria-hidden="true" class="page-wash"></div>
+
   <section class="section-header">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-1">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
           <h1 class="mt-1">{{ .Title }}</h1>
           <p class="lead text-muted">{{ .Params.lead | safeHTML }}</p>
           <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}start-here/getting-started/" role="button">{{ i18n "get_started" }}</a>
-          {{ .Content }}
+        </div>
+        <div class="col-lg-12">
+          <div class="header-content">
+            {{ .Content }}
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section-main border-top">
+  <section class="section-main">
     <div class="container">
-      <div class="row gy-2">
-        <div class="col-lg-5 offset-lg-1">
-          <h2 class="fs-4">Technical SEO</h2>
-          <p class="text-muted">Essential SEO fundamentals like meta tags, canonical URLs, and robots directives handled automatically.</p>
+      <h2 class="text-center mt-lg-0">What's included</h2>
+      <div class="row justify-content-center g-4">
+        <div class="col-lg-5">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="fs-5">{{ partial "inline-svg" (dict "src" "outline/seo" "stroke-width" "1.5" "class" "text-muted me-2" ) }}Technical SEO</h3>
+              <p class="text-muted fs-6">Essential SEO fundamentals like meta tags, canonical URLs, and robots directives handled automatically.</p>
+            </div>
+          </div>
         </div>
         <div class="col-lg-5">
-          <h2 class="fs-4">Structured data</h2>
-          <p class="text-muted">Add JSON-LD schema for search engines to better understand your content and enable rich results.</p>
+          <div class="card">
+            <div class="card-body">
+              <h3 class="fs-5">{{ partial "inline-svg" (dict "src" "outline/json" "stroke-width" "1.5" "class" "text-muted me-2" ) }}Structured data</h3>
+              <p class="text-muted fs-6">Add JSON-LD schema for search engines to better understand your content and enable rich results.</p>
+            </div>
+          </div>
         </div>
         <div class="col-lg-5">
-          <h2 class="fs-4">Social previews</h2>
-          <p class="text-muted">Automatically generate Open Graph and X Card metadata for clean, consistent link previews.</p>
-        </div>
-        <div class="col-lg-5 offset-lg-1">
-          <h2 class="fs-4">Flexible settings</h2>
-          <p class="text-muted">Set global defaults and override SEO settings per page when needed.</p>
+          <div class="card">
+            <div class="card-body">
+              <h3 class="fs-5">{{ partial "inline-svg" (dict "src" "outline/social" "stroke-width" "1.5" "class" "text-muted me-2" ) }}Social previews</h3>
+              <p class="text-muted fs-6">Automatically generate Open Graph and X Card metadata for clean, consistent link previews.</p>
+            </div>
+          </div>
         </div>
         <div class="col-lg-5">
-          <h2 class="fs-4">Automated utilities</h2>
-          <p class="text-muted">Generate sitemaps and favicon sets automatically — no manual setup required.</p>
+          <div class="card">
+            <div class="card-body">
+              <h3 class="fs-5">{{ partial "inline-svg" (dict "src" "outline/settings-2" "stroke-width" "1.5" "class" "text-muted me-2" ) }}Flexible settings</h3>
+              <p class="text-muted fs-6">Set global defaults and override SEO settings per page when needed.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="fs-5">{{ partial "inline-svg" (dict "src" "outline/sitemap" "stroke-width" "1.5" "class" "text-muted me-2" ) }}Automated utilities</h3>
+              <p class="text-muted fs-6">Generate sitemaps and favicon sets automatically — no manual setup required.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -41,18 +68,30 @@
 {{ end }}
 
 {{ define "sidebar-footer" }}
-  <section class="section-footer border-top">
+  <section class="section-prefooter">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-5  offset-lg-1">
-          <h2 class="fs-4 mt-3">Documentation</h2>
-          <ul class="list-unstyled">
-            <li><a class="link link--text" href="https://docs.thulite.io/">Thulite</a></li>
-            <li><a class="link link--text" href="https://seo.thulite.io/">SEO</a></li>
-            <li><a class="link link--text" href="https://images.thulite.io/">Images</a></li>
-            <li><a class="link link--text" href="https://svg.thulite.io/">SVG</a></li>
-            <li><a class="link link--text" href="https://getdoks.org/">Doks</a></li>
-          </ul>
+      <h2 class="text-center mt-lg-0">Open source</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <p class="text-muted fs-6">Help keep Thulite sustainable by supporting maintenance, documentation, and long-term development.</p>
+          <a target="_blank" href="https://github.com/sponsors/thuliteio" class="icon-link">Sponsor Thulite
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 6l6 6-6 6"></path></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-footer">
+    <div class="container">
+      <h2 class="text-center mt-lg-0">FAQs</h2>
+      <div class="row justify-content-center g-4">
+        <div class="col-lg-8">
+          <details><summary>What does Thulite SEO actually do?</summary><span class="fs-6">Thulite SEO handles the technical essentials for you—like meta tags, structured data, sitemaps, and favicons—so your site is optimized for search engines out of the box.</span></details>
+          <details><summary>Do I need SEO knowledge to use it?</summary><span class="fs-6">No. Thulite SEO is designed to work with sensible defaults, so you get strong SEO fundamentals without needing deep expertise.</span></details>
+          <details><summary>How is this different from traditional SEO tools?</summary><span class="fs-6">Unlike standalone SEO tools, Thulite SEO is built directly into your site. It focuses on technical SEO and automation rather than audits, dashboards, or keyword tracking.</span></details>
+          <details><summary>What parts of SEO are covered?</summary><span class="fs-6">It primarily covers technical and on-page SEO fundamentals—like metadata, structured data, and site configuration—so search engines can properly understand and index your content.</span></details>
+          <details><summary>Can I still customize SEO settings?</summary><span class="fs-6">Yes. While defaults work well out of the box, you can override and customize settings when you need more control.</span></details>
+          <details><summary>Does this improve my rankings automatically?</summary><span class="fs-6">It gives your site a solid technical foundation, which is essential for rankings—but content and strategy still matter.</span></details>
         </div>
       </div>
     </div>
