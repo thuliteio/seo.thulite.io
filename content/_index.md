@@ -3,7 +3,7 @@ title : "Improve your search rankings"
 description: "SEO for Thulite websites. Simple setup. Sensible defaults."
 lead: "SEO for Thulite websites. Simple setup. Sensible defaults."
 date: 2023-09-07T16:33:54+02:00
-lastmod: 2026-03-20T15:19:22+01:00
+lastmod: 2026-03-23T15:12:34+01:00
 draft: false
 seo:
   title: "Thulite SEO — Improve your search rankings" # custom title (optional)
