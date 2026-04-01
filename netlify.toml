@@ -30,6 +30,12 @@
   force = true
 
 [[redirects]]
+  from = "/docs/built-ins/*"
+  to = "/docs/utilities/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/404/"
   status = 404
