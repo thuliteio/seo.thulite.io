@@ -1,14 +1,10 @@
 ---
-title: "Built-ins"
+title: "Utilities"
 description: ""
 summary: ""
 date: 2023-12-14T11:27:52+01:00
-lastmod: 2023-12-14T11:27:52+01:00
+lastmod: 2026-04-01T18:32:18+02:00
 draft: false
-menu:
-  docs:
-    parent: ""
-    identifier: "built-ins-3bda3980cac72b7dc1d0e54d6e47f923"
 weight: 600
 toc: true
 sidebar:
