@@ -231,3 +231,9 @@
   text-underline-offset: 0.25em;
   backface-visibility: hidden;
 }
+
+@include media-breakpoint-up(sm) {
+  .card.w-100.w-50 {
+    width: calc(50% - 0.5rem) !important;
+  }
+}

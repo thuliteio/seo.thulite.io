@@ -36,6 +36,24 @@
   force = true
 
 [[redirects]]
+  from = "/docs/start-here/manual-setup/"
+  to = "/docs/start-here/installation/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/start-here/customizing-seo/"
+  to = "/docs/start-here/configuration/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/reference/sitemap/"
+  to = "/docs/reference/settings/"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/404/"
   status = 404

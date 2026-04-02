@@ -16,6 +16,45 @@ seo:
 
 This reference guide describes the [SEO parameters](/docs/start-here/customizing-seo/#update-parameters).
 
+## Example
+
+```toml {title="config/_default/params.toml"}
+# Hugo
+title = "Thulite"
+subTitle = "SEO"
+description = "Everything you need to make your Thulite website more visible in search results. Solid setup and easy to use."
+images = ["cover.png"]
+
+[social]
+  twitter = "getdoks"
+  facebook_admin = ""
+
+# SEO (@thulite/seo)
+[seo]
+  [seo.title]
+    separator = "—"
+    suffix = ""
+  [seo.description]
+    summaryFallback = "" # "" (default)
+  [seo.description.length]
+    errorlevel = "warning" # warning (default), error, or ignore
+    min = 110
+    max = 160
+  [seo.favicons]
+    icon = "favicon.png" # favicon.png (default)
+    svgIcon = "favicon.svg" # favicon.svg (default)
+  [seo.schemas]
+    type = "Organization" # Organization (default) or Person
+    logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
+    name = "Thulite" # Name of Organization or Person
+    sameAs = ["https://github.com/thuliteio/thulite", "https://x.com/thuliteio", "https://fosstodon.org/@thulite"] # E.g. ["https://github.com/thuliteio/thulite", "https://fosstodon.org/@thulite"]
+    images = ["cover.png"] # ["cover.png"] (default)
+    article = [] # Article sections
+    newsArticle = [] # NewsArticle sections
+    blogPosting = [] # BlogPosting sections
+    product = [] # Product sections
+```
+
 ## title
 
 A string containing the website's title — for example `"Thulite"`

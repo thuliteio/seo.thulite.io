@@ -1,0 +1,102 @@
+---
+title: "Configuration"
+description: ""
+summary: ""
+date: 2024-03-15T15:25:08+01:00
+lastmod: 2026-04-02T11:57:58+02:00
+draft: false
+weight: 130
+toc: true
+seo:
+  title: "" # custom title (optional)
+  description: "" # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  robots: "" # custom robot tags (optional)
+---
+
+Configure Thulite SEO by updating settings, parameters, and page frontmatter.
+
+## Update settings
+
+Update your [settings](/docs/reference/settings/) in `./config/_default/hugo.toml`:
+
+```toml {title="hugo.toml"}
+title = "Thulite"
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  disable = false
+  filename = "sitemap.xml"
+  priority = 0.5
+```
+
+## Update parameters
+
+Update your [parameters](/docs/reference/parameters/) in `./config/_default/params.toml`:
+
+```toml {title="params.toml"}
+# Hugo
+title = "Thulite"
+subTitle = "SEO"
+description = "Everything you need to make your Thulite website more visible in search results. Solid setup and easy to use."
+images = ["cover.png"]
+
+[social]
+  twitter = "getdoks"
+  facebook_admin = ""
+
+# SEO (@thulite/seo)
+[seo]
+  [seo.title]
+    separator = "—"
+    suffix = ""
+  [seo.description]
+    summaryFallback = "" # "" (default)
+  [seo.description.length]
+    errorlevel = "warning" # warning (default), error, or ignore
+    min = 110
+    max = 160
+  [seo.favicons]
+    icon = "favicon.png" # favicon.png (default)
+    svgIcon = "favicon.svg" # favicon.svg (default)
+  [seo.schemas]
+    type = "Organization" # Organization (default) or Person
+    logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
+    name = "Thulite" # Name of Organization or Person
+    sameAs = [] # E.g. ["https://github.com/thuliteio/thulite", "https://fosstodon.org/@thulite"]
+    images = ["cover.png"] # ["cover.png"] (default)
+    article = [] # Article sections
+    newsArticle = [] # NewsArticle sections
+    blogPosting = [] # BlogPosting sections
+    product = [] # Product sections
+```
+
+## Update page frontmatter
+
+Update your [page frontmatter](/docs/reference/page-frontmatter/) — optional, if needed:
+
+```md
+---
+title: "First Indexed Page"
+description: ""
+summary: ""
+date: 2026-04-02T08:28:01+02:00
+lastmod: 2026-04-02T08:28:01+02:00
+draft: true
+weight: 999
+toc: true
+params:
+  sitemap_exclude: false
+  seo:
+    title: "" # custom title (optional)
+    description: "" # custom description (recommended)
+    canonical: "" # custom canonical URL (optional)
+    robots: "" # custom robot tags (optional)
+    structured_data:
+      product:
+        currency: USD
+        price: 99
+        availability: https://schema.org/OnlineOnly
+---
+```
