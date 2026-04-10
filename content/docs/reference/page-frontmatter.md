@@ -1,11 +1,11 @@
 ---
 title: "Page Frontmatter"
-description: ""
-summary: ""
+description: "Reference for page frontmatter fields and per-page SEO overrides, including custom title, description, canonical URL, robots, sitemap, and product data."
+summary: "Reference for page frontmatter fields and per-page SEO overrides, including custom title, description, canonical URL, robots, sitemap, and product data."
 date: 2026-04-02T08:27:29+02:00
-lastmod: 2026-04-02T08:27:35+02:00
+lastmod: 2026-04-10T13:45:51+02:00
 draft: false
-weight: 930
+weight: 530
 toc: true
 params:
   seo:
@@ -16,7 +16,7 @@ params:
     sitemap: false # true (default) or false
 ---
 
-This reference guide describes the [SEO page frontmatter](/docs/start-here/customizing-seo/#update-page-frontmatter).
+This reference guide describes page frontmatter fields and page-level SEO overrides.
 
 ## Example
 
@@ -47,26 +47,52 @@ params:
 
 ## title
 
-Custom title (optional)
+The page title used in rendered content and metadata. A string — for example `"First Indexed Page"`.
 
 ## description
 
-custom description (recommended)
+The page description used for metadata and previews. A string — default is `""` (recommended to set).
 
-## robots
+## params.sitemap_exclude
 
-custom robot tags (optional)
+Whether to exclude this page from the sitemap. A boolean — default is `false`.
 
-## structured_data.product
+## params.seo
 
-### currency
+Page-level overrides for SEO metadata.
 
-For example `USD`
+### title
 
-### price
+Custom SEO title for this page. A string — default is `""` (falls back to generated title).
 
-For example: `500`
+### description
 
-### availability
+Custom SEO description for this page. A string — default is `""` (falls back to summary/description logic).
 
-For example: `https://schema.org/OnlineOnly`
+### canonical
+
+Custom canonical URL for this page. A string URL — default is `""`.
+
+### robots
+
+Custom robots meta tags for this page. A string — default is `""`.
+
+### sitemap
+
+Whether this page is included in sitemap output. A boolean — valid values are `true` (default) or `false`.
+
+### structured_data.product
+
+Product-specific structured data fields for pages using Product schema.
+
+#### currency
+
+The product currency code. A string — for example `USD`.
+
+#### price
+
+The product price. A number — for example `99`.
+
+#### availability
+
+The product availability URL from Schema.org. A string URL — for example `https://schema.org/OnlineOnly`.

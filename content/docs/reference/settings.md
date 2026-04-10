@@ -1,11 +1,11 @@
 ---
 title: "Settings"
-description: ""
-summary: ""
+description: "Reference for Hugo site settings used by Thulite SEO, including title, robots.txt generation, and sitemap options like changefreq and priority."
+summary: "Reference for Hugo site settings used by Thulite SEO, including title, robots.txt generation, and sitemap options like changefreq and priority."
 date: 2024-03-15T15:45:35+01:00
-lastmod: 2024-03-15T15:45:35+01:00
+lastmod: 2026-04-10T13:45:38+02:00
 draft: false
-weight: 910
+weight: 510
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -14,7 +14,7 @@ seo:
   robots: "" # custom robot tags (optional)
 ---
 
-This reference guide describes the [SEO settings](/docs/start-here/customizing-seo/#update-settings) and the [Sitemap settings](/docs/built-ins/sitemap/).
+This reference guide describes the main site settings and sitemap settings.
 
 ## Example
 
@@ -31,22 +31,26 @@ enableRobotsTXT = true
 
 ## title
 
-A string containing the website's title — for example `"Thulite"`
+The website title used across the site output. A string — for example `"Thulite"`.
 
 ## enableRobotsTXT
 
-A boolean — for example `true` (default).
+Whether Hugo generates a `robots.txt` file. A boolean — default is `true`.
 
 ## sitemap
 
 ### changefreq
 
-How frequently a page is likely to change. Valid values are `always`, `hourly`, `daily`, `weekly`, `monthly`, `yearly`, and `never`. Default is `""` (change frequency omitted from rendered sitemap).
+How frequently a page is likely to change in the sitemap. A string — valid values are `always`, `hourly`, `daily`, `weekly`, `monthly`, `yearly`, and `never`. Default is `""` (change frequency omitted from the rendered sitemap).
+
+### disable
+
+Whether sitemap generation is disabled. A boolean — default is `false`.
 
 ### filename
 
-The name of the generated file. Default is `sitemap.xml`.
+The output filename for the sitemap. A string — default is `sitemap.xml`.
 
 ### priority
 
-The priority of a page relative to any other page on the site. Valid values range from 0.0 to 1.0. Default is `-1` (priority omitted from rendered sitemap).
+The relative priority of a page in the sitemap. A float — valid values range from `0.0` to `1.0`. Default is `-1` (priority omitted from the rendered sitemap).
