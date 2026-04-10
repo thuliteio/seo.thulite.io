@@ -1,11 +1,11 @@
 ---
 title: "Robots"
-description: ""
-summary: ""
+description: "Control indexing directives in Thulite SEO with robots meta values in frontmatter, and understand when robots tags are generated or omitted."
+summary: "Control indexing directives in Thulite SEO with robots meta values in frontmatter, and understand when robots tags are generated or omitted."
 date: 2024-03-14T09:01:07+01:00
-lastmod: 2024-03-14T09:01:07+01:00
+lastmod: 2026-04-10T12:21:38+02:00
 draft: false
-weight: 340
+weight: 250
 toc: true
 seo:
   title: "" # custom title (optional)

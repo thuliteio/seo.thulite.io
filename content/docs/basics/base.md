@@ -1,11 +1,11 @@
 ---
 title: "Base"
-description: ""
-summary: ""
+description: "See how the HTML base element sets a document base URL in Thulite SEO, including its effect on relative links and in-page anchor navigation."
+summary: "See how the HTML base element sets a document base URL in Thulite SEO, including its effect on relative links and in-page anchor navigation."
 date: 2024-03-14T09:31:46+01:00
-lastmod: 2024-03-14T09:31:46+01:00
+lastmod: 2026-04-10T12:21:11+02:00
 draft: false
-weight: 305
+weight: 210
 toc: true
 seo:
   title: "" # custom title (optional)

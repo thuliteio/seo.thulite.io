@@ -1,11 +1,11 @@
 ---
 title: "Canonical"
-description: ""
-summary: ""
+description: "Set canonical URLs in Thulite SEO to prevent duplicate-content issues, using either a custom frontmatter value or the page permalink default."
+summary: "Set canonical URLs in Thulite SEO to prevent duplicate-content issues, using either a custom frontmatter value or the page permalink default."
 date: 2024-03-13T17:44:10+01:00
-lastmod: 2024-03-13T17:44:10+01:00
+lastmod: 2026-04-10T12:21:17+02:00
 draft: false
-weight: 310
+weight: 220
 toc: true
 seo:
   title: "" # custom title (optional)

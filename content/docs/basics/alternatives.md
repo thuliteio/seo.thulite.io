@@ -1,11 +1,11 @@
 ---
 title: "Alternatives"
-description: ""
-summary: ""
+description: "Understand alternate links for feeds in Thulite SEO, how Hugo output formats control RSS generation, and which rel=alternate tags are emitted."
+summary: "Understand alternate links for feeds in Thulite SEO, how Hugo output formats control RSS generation, and which rel=alternate tags are emitted."
 date: 2024-03-14T08:34:57+01:00
-lastmod: 2024-03-14T08:34:57+01:00
+lastmod: 2026-04-10T12:21:32+02:00
 draft: false
-weight: 330
+weight: 240
 toc: true
 seo:
   title: "" # custom title (optional)

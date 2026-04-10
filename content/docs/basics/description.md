@@ -1,11 +1,11 @@
 ---
 title: "Description"
-description: ""
-summary: ""
+description: "Configure meta descriptions in Thulite SEO with page-level overrides and fallback behavior, and learn how generated description tags are determined."
+summary: "Configure meta descriptions in Thulite SEO with page-level overrides and fallback behavior, and learn how generated description tags are determined."
 date: 2024-03-14T11:49:22+01:00
-lastmod: 2024-03-14T11:49:22+01:00
+lastmod: 2026-04-10T12:21:52+02:00
 draft: false
-weight: 360
+weight: 270
 toc: true
 seo:
   title: "" # custom title (optional)

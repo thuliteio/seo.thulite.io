@@ -1,11 +1,11 @@
 ---
 title: "Title"
-description: ""
-summary: ""
+description: "Learn how Thulite SEO builds page titles from frontmatter, separator, and suffix settings, and when custom SEO titles take precedence."
+summary: "Learn how Thulite SEO builds page titles from frontmatter, separator, and suffix settings, and when custom SEO titles take precedence."
 date: 2024-03-14T09:53:11+01:00
-lastmod: 2024-03-14T09:53:11+01:00
+lastmod: 2026-04-10T12:21:44+02:00
 draft: false
-weight: 350
+weight: 260
 toc: true
 seo:
   title: "" # custom title (optional)

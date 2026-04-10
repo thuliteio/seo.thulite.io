@@ -1,15 +1,11 @@
 ---
 title: "Basics"
-description: ""
-summary: ""
+description: "Learn the SEO fundamentals in Thulite: base, canonical, translations, alternatives, robots, title, and description tags with practical examples."
+summary: "Learn the SEO fundamentals in Thulite: base, canonical, translations, alternatives, robots, title, and description tags with practical examples."
 date: 2023-12-14T11:17:27+01:00
-lastmod: 2023-12-14T11:17:27+01:00
+lastmod: 2026-04-10T12:21:05+02:00
 draft: false
-menu:
-  docs:
-    parent: ""
-    identifier: "basics-4972430111b8816570189eb5c6402dd5"
-weight: 300
+weight: 200
 toc: true
 seo:
   title: "" # custom title (optional)

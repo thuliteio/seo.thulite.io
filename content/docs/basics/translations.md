@@ -1,11 +1,11 @@
 ---
 title: "Translations"
-description: ""
-summary: ""
+description: "Understand translation alternate links in Thulite SEO, including hreflang and x-default tags generated from multilingual page variants."
+summary: "Understand translation alternate links in Thulite SEO, including hreflang and x-default tags generated from multilingual page variants."
 date: 2024-03-13T19:39:06+01:00
-lastmod: 2024-03-13T19:39:06+01:00
+lastmod: 2026-04-10T12:21:25+02:00
 draft: false
-weight: 320
+weight: 230
 toc: true
 seo:
   title: "" # custom title (optional)
