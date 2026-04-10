@@ -1,14 +1,10 @@
 ---
 title: "Docs"
-description: ""
-summary: ""
+description: "Browse the Thulite SEO documentation, covering installation, configuration, basics, signals, schemas, and full reference material."
+summary: "Browse the Thulite SEO documentation, covering installation, configuration, basics, signals, schemas, and full reference material."
 date: 2023-09-07T16:12:03+02:00
-lastmod: 2023-09-07T16:12:03+02:00
+lastmod: 2026-04-10T14:12:27+02:00
 draft: false
-menu:
-  docs:
-    parent: ""
-    identifier: "docs-9602b15bad02600f3883f55e2ade6b81"
 weight: 999
 toc: true
 seo:

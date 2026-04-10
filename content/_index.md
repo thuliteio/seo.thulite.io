@@ -1,9 +1,10 @@
 ---
 title : "Improve your search rankings"
-description: "SEO for Thulite websites. Simple setup. Sensible defaults."
+description: "Thulite SEO adds meta tags, Open Graph, structured data, sitemaps, and favicons to your Thulite site with simple setup and sensible defaults."
+summary: "Thulite SEO adds meta tags, Open Graph, structured data, sitemaps, and favicons to your Thulite site with simple setup and sensible defaults."
 lead: "SEO for Thulite websites. Simple setup. Sensible defaults."
 date: 2023-09-07T16:33:54+02:00
-lastmod: 2026-04-03T14:55:53+02:00
+lastmod: 2026-04-10T14:12:43+02:00
 draft: false
 seo:
   title: "Thulite SEO — Improve your search rankings" # custom title (optional)
