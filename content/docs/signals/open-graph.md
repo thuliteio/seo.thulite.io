@@ -1,11 +1,11 @@
 ---
 title: "Open Graph"
-description: ""
-summary: ""
+description: "Learn how Thulite SEO creates Open Graph metadata from page content, images, dates, and tags to improve rich previews on social platforms."
+summary: "Learn how Thulite SEO creates Open Graph metadata from page content, images, dates, and tags to improve rich previews on social platforms."
 date: 2024-03-14T16:58:20+01:00
-lastmod: 2024-03-14T16:58:20+01:00
+lastmod: 2026-04-10T12:33:32+02:00
 draft: false
-weight: 620
+weight: 320
 toc: true
 seo:
   title: "" # custom title (optional)

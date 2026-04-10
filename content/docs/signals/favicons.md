@@ -1,11 +1,11 @@
 ---
 title: "Favicons"
-description: ""
-summary: ""
+description: "Configure favicon source files in Thulite SEO and learn which icon files, manifest entries, and favicon-related tags are generated for your site."
+summary: "Configure favicon source files in Thulite SEO and learn which icon files, manifest entries, and favicon-related tags are generated for your site."
 date: 2024-03-14T12:22:05+01:00
-lastmod: 2024-03-14T12:22:05+01:00
+lastmod: 2026-04-10T12:33:26+02:00
 draft: false
-weight: 610
+weight: 310
 toc: true
 seo:
   title: "" # custom title (optional)

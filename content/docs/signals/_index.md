@@ -1,11 +1,11 @@
 ---
 title: "Signals"
-description: ""
-summary: ""
+description: "Explore search and social signals in Thulite SEO, including favicons, Open Graph, X Cards, robots.txt, and sitemaps with generated output examples."
+summary: "Explore search and social signals in Thulite SEO, including favicons, Open Graph, X Cards, robots.txt, and sitemaps with generated output examples."
 date: 2023-12-14T11:27:52+01:00
-lastmod: 2026-04-01T18:32:18+02:00
+lastmod: 2026-04-10T12:33:19+02:00
 draft: false
-weight: 600
+weight: 300
 toc: true
 sidebar:
   collapsed: true

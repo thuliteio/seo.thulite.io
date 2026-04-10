@@ -1,11 +1,11 @@
 ---
 title: "X Cards"
-description: ""
-summary: ""
+description: "Set up X Card metadata in Thulite SEO, including image selection fallbacks and the generated twitter card tags for richer shared links."
+summary: "Set up X Card metadata in Thulite SEO, including image selection fallbacks and the generated twitter card tags for richer shared links."
 date: 2024-03-14T20:11:18+01:00
-lastmod: 2024-03-14T20:11:18+01:00
+lastmod: 2026-04-10T12:33:37+02:00
 draft: false
-weight: 630
+weight: 330
 toc: true
 seo:
   title: "" # custom title (optional)

@@ -1,11 +1,11 @@
 ---
 title: "Sitemap"
-description: ""
-summary: ""
+description: "Configure sitemap defaults in Hugo, inspect generated sitemap files, and learn how to disable sitemaps globally or exclude individual pages."
+summary: "Configure sitemap defaults in Hugo, inspect generated sitemap files, and learn how to disable sitemaps globally or exclude individual pages."
 date: 2024-03-14T21:04:10+01:00
-lastmod: 2024-03-14T21:04:10+01:00
+lastmod: 2026-04-10T12:33:52+02:00
 draft: false
-weight: 650
+weight: 350
 toc: true
 seo:
   title: "" # custom title (optional)
