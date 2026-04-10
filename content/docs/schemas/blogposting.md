@@ -1,11 +1,11 @@
 ---
 title: "BlogPosting"
-description: ""
-summary: ""
+description: "Set up BlogPosting schema generation in Thulite SEO by assigning blog sections, then validate the resulting JSON-LD for blog entries."
+summary: "Set up BlogPosting schema generation in Thulite SEO by assigning blog sections, then validate the resulting JSON-LD for blog entries."
 date: 2024-03-14T21:38:52+01:00
-lastmod: 2024-03-14T21:38:52+01:00
+lastmod: 2026-04-10T12:40:43+02:00
 draft: false
-weight: 770
+weight: 470
 toc: true
 seo:
   title: "" # custom title (optional)

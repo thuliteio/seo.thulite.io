@@ -1,11 +1,11 @@
 ---
 title: "WebSite"
-description: ""
-summary: ""
+description: "Learn how Thulite SEO emits WebSite structured data on the homepage using site title and description from params for baseline schema markup."
+summary: "Learn how Thulite SEO emits WebSite structured data on the homepage using site title and description from params for baseline schema markup."
 date: 2024-03-14T21:35:11+01:00
-lastmod: 2024-03-14T21:35:11+01:00
+lastmod: 2026-04-10T12:40:00+02:00
 draft: false
-weight: 710
+weight: 410
 toc: true
 seo:
   title: "" # custom title (optional)

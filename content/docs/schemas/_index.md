@@ -1,11 +1,11 @@
 ---
 title: "Schemas"
-description: ""
-summary: ""
+description: "Learn how Thulite SEO generates Schema.org structured data for websites, organizations, people, breadcrumbs, articles, and products."
+summary: "Learn how Thulite SEO generates Schema.org structured data for websites, organizations, people, breadcrumbs, articles, and products."
 date: 2024-03-14T21:33:44+01:00
-lastmod: 2024-03-14T21:33:44+01:00
+lastmod: 2026-04-10T12:39:53+02:00
 draft: false
-weight: 700
+weight: 400
 toc: true
 seo:
   title: "" # custom title (optional)

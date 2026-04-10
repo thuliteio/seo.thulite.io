@@ -1,11 +1,11 @@
 ---
 title: "NewsArticle"
-description: ""
-summary: ""
+description: "Enable NewsArticle structured data in Thulite SEO for news sections and inspect the generated JSON-LD fields for publication metadata."
+summary: "Enable NewsArticle structured data in Thulite SEO for news sections and inspect the generated JSON-LD fields for publication metadata."
 date: 2024-03-14T21:38:40+01:00
-lastmod: 2024-03-14T21:38:40+01:00
+lastmod: 2026-04-10T12:40:32+02:00
 draft: false
-weight: 760
+weight: 460
 toc: true
 seo:
   title: "" # custom title (optional)

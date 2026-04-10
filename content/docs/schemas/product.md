@@ -1,11 +1,11 @@
 ---
 title: "Product"
-description: ""
-summary: ""
+description: "Generate Product schema in Thulite SEO by defining product sections and frontmatter offer fields like price, currency, and availability."
+summary: "Generate Product schema in Thulite SEO by defining product sections and frontmatter offer fields like price, currency, and availability."
 date: 2024-03-14T21:39:05+01:00
-lastmod: 2024-03-14T21:39:05+01:00
+lastmod: 2026-04-10T12:40:50+02:00
 draft: false
-weight: 780
+weight: 480
 toc: true
 seo:
   title: "" # custom title (optional)

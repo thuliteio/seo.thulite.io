@@ -1,11 +1,11 @@
 ---
 title: "Person"
-description: ""
-summary: ""
+description: "Set Person schema defaults in Thulite SEO for the homepage, including name, profiles, and images, to generate accurate personal JSON-LD."
+summary: "Set Person schema defaults in Thulite SEO for the homepage, including name, profiles, and images, to generate accurate personal JSON-LD."
 date: 2024-03-14T21:37:57+01:00
-lastmod: 2024-03-14T21:37:57+01:00
+lastmod: 2026-04-10T12:40:13+02:00
 draft: false
-weight: 730
+weight: 430
 toc: true
 seo:
   title: "" # custom title (optional)

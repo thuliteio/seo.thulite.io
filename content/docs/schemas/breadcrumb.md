@@ -1,11 +1,11 @@
 ---
 title: "Breadcrumb"
-description: ""
-summary: ""
+description: "Understand BreadcrumbList schema in Thulite SEO and how breadcrumb JSON-LD is generated for navigable pages to reflect site hierarchy."
+summary: "Understand BreadcrumbList schema in Thulite SEO and how breadcrumb JSON-LD is generated for navigable pages to reflect site hierarchy."
 date: 2024-03-14T21:38:13+01:00
-lastmod: 2024-03-14T21:38:13+01:00
+lastmod: 2026-04-10T12:40:19+02:00
 draft: false
-weight: 740
+weight: 440
 toc: true
 seo:
   title: "" # custom title (optional)

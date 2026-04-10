@@ -1,11 +1,11 @@
 ---
 title: "Article"
-description: ""
-summary: ""
+description: "Configure Article schema output in Thulite SEO by mapping sections in params.toml, and review the generated JSON-LD fields for article pages."
+summary: "Configure Article schema output in Thulite SEO by mapping sections in params.toml, and review the generated JSON-LD fields for article pages."
 date: 2024-03-14T21:38:24+01:00
-lastmod: 2024-03-14T21:38:24+01:00
+lastmod: 2026-04-10T12:40:26+02:00
 draft: false
-weight: 750
+weight: 450
 toc: true
 seo:
   title: "" # custom title (optional)

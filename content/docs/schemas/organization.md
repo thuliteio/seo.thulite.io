@@ -1,11 +1,11 @@
 ---
 title: "Organization"
-description: ""
-summary: ""
+description: "Configure Organization schema on the homepage with name, logo, images, and sameAs links so Thulite SEO outputs complete org JSON-LD."
+summary: "Configure Organization schema on the homepage with name, logo, images, and sameAs links so Thulite SEO outputs complete org JSON-LD."
 date: 2024-03-14T21:37:51+01:00
-lastmod: 2024-03-14T21:37:51+01:00
+lastmod: 2026-04-10T12:40:06+02:00
 draft: false
-weight: 720
+weight: 420
 toc: true
 seo:
   title: "" # custom title (optional)
