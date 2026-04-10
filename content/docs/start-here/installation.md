@@ -1,9 +1,9 @@
 ---
 title: "Installation"
-description: ""
-summary: ""
+description: "Install Thulite SEO in your project with npm, pnpm, Yarn, or bun, then add required module mounts so the integration layouts are loaded correctly."
+summary: "Install Thulite SEO in your project with npm, pnpm, Yarn, or bun, then add required module mounts so the integration layouts are loaded correctly."
 date: 2023-11-08T12:26:26+01:00
-lastmod: 2026-04-02T11:59:21+02:00
+lastmod: 2026-04-10T12:09:11+02:00
 draft: false
 weight: 120
 toc: true
@@ -14,7 +14,7 @@ seo:
   robots: "" # custom robot tags (optional)
 ---
 
-This guide shows how to add Thulite SEO to an existing Thulite project.
+This guide shows how to add Thulite SEO to your Thulite project.
 
 {{< callout context="note" title="Already installed?" icon="outline/info-circle" >}}
 If your Thulite template already includes the recommended integrations (SEO and Images), skip installation and continue to [Configuration](/docs/start-here/configuration/).

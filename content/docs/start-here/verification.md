@@ -1,9 +1,9 @@
 ---
 title: "Verification"
-description: ""
-summary: ""
+description: "Verify your Thulite SEO setup by inspecting generated HTML tags, checking sitemaps, and validating metadata with external SEO and indexing tools."
+summary: "Verify your Thulite SEO setup by inspecting generated HTML tags, checking sitemaps, and validating metadata with external SEO and indexing tools."
 date: 2026-04-02T15:58:30+02:00
-lastmod: 2026-04-02T15:58:30+02:00
+lastmod: 2026-04-10T12:09:21+02:00
 draft: false
 weight: 140
 toc: true

@@ -1,9 +1,9 @@
 ---
 title: "Getting Started"
-description: ""
-summary: ""
+description: "Get started with Thulite SEO and follow the core path for installation, configuration, verification, updates, and troubleshooting in one place."
+summary: "Get started with Thulite SEO and follow the core path for installation, configuration, verification, updates, and troubleshooting in one place."
 date: 2023-11-08T11:42:20+01:00
-lastmod: 2026-04-02T16:37:44+02:00
+lastmod: 2026-04-10T12:08:55+02:00
 draft: false
 weight: 110
 toc: true

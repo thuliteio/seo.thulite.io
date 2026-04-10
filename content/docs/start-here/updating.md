@@ -1,9 +1,9 @@
 ---
 title: "Updating"
-description: ""
-summary: ""
+description: "Update Thulite SEO to the latest release with npm, pnpm, Yarn, or bun, and review release notes to understand changes before deployment."
+summary: "Update Thulite SEO to the latest release with npm, pnpm, Yarn, or bun, and review release notes to understand changes before deployment."
 date: 2026-04-02T14:26:32+02:00
-lastmod: 2026-04-02T14:26:32+02:00
+lastmod: 2026-04-10T12:09:28+02:00
 draft: false
 weight: 150
 toc: true

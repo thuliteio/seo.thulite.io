@@ -1,9 +1,9 @@
 ---
 title: "Configuration"
-description: ""
-summary: ""
+description: "Learn how to configure Thulite SEO in hugo.toml, params.toml, and page frontmatter, including sitemap, title, description length, and schema settings."
+summary: "Learn how to configure Thulite SEO in hugo.toml, params.toml, and page frontmatter, including sitemap, title, description length, and schema settings."
 date: 2024-03-15T15:25:08+01:00
-lastmod: 2026-04-02T11:57:58+02:00
+lastmod: 2026-04-10T12:09:18+02:00
 draft: false
 weight: 130
 toc: true
