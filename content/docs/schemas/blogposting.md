@@ -6,12 +6,13 @@ date: 2024-03-14T21:38:52+01:00
 lastmod: 2026-04-10T12:40:43+02:00
 draft: false
 weight: 470
-toc: true
-seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  robots: "" # custom robot tags (optional)
+params:
+  toc: true
+  seo:
+    title: "" # custom title (optional)
+    description: "" # custom description (recommended)
+    canonical: "" # custom canonical URL (optional)
+    robots: "" # custom robot tags (optional)
 ---
 
 A blog post.

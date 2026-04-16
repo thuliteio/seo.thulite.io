@@ -6,12 +6,13 @@ date: 2024-03-14T21:04:10+01:00
 lastmod: 2026-04-10T12:33:52+02:00
 draft: false
 weight: 350
-toc: true
-seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  robots: "" # custom robot tags (optional)
+params:
+  toc: true
+  seo:
+    title: "" # custom title (optional)
+    description: "" # custom description (recommended)
+    canonical: "" # custom canonical URL (optional)
+    robots: "" # custom robot tags (optional)
 ---
 
 A sitemap is a list of pages of a website. Structured listings of a site's pages help with search engine optimization, providing a link for web crawlers such as search engines to follow.

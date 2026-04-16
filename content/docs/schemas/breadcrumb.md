@@ -6,12 +6,13 @@ date: 2024-03-14T21:38:13+01:00
 lastmod: 2026-04-10T12:40:19+02:00
 draft: false
 weight: 440
-toc: true
-seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  robots: "" # custom robot tags (optional)
+params:
+  toc: true
+  seo:
+    title: "" # custom title (optional)
+    description: "" # custom description (recommended)
+    canonical: "" # custom canonical URL (optional)
+    robots: "" # custom robot tags (optional)
 ---
 
 A set of links that can help a user understand and navigate a website hierarchy.

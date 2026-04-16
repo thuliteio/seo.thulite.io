@@ -5,9 +5,9 @@ summary: "Diagnose common Thulite SEO issues by checking settings, parameters, a
 date: 2026-04-02T14:26:44+02:00
 lastmod: 2026-04-10T12:10:01+02:00
 draft: false
-weight: 160
-toc: true
+weight: 170
 params:
+  toc: true
   seo:
     title: "" # custom title (optional)
     description: "" # custom description (recommended)
@@ -22,7 +22,7 @@ Use the [Settings](/docs/reference/settings/), [Parameters](/docs/reference/para
 
 ## Consult the documentation
 
-If you cannot find an answer in these docs, visit the [Thulite Docs](https://docs.thulite.io/) for the framework documentation. Many SEO questions are resolved by understanding how Thulite works under the hood.
+If you cannot find an answer in this documentation, visit the [Thulite Docs](https://docs.thulite.io/) for framework-level guidance. Many SEO questions can be resolved by understanding how Thulite works under the hood.
 
 ## Ask the community
 

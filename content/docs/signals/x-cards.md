@@ -6,12 +6,13 @@ date: 2024-03-14T20:11:18+01:00
 lastmod: 2026-04-10T12:33:37+02:00
 draft: false
 weight: 330
-toc: true
-seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  robots: "" # custom robot tags (optional)
+params:
+  toc: true
+  seo:
+    title: "" # custom title (optional)
+    description: "" # custom description (recommended)
+    canonical: "" # custom canonical URL (optional)
+    robots: "" # custom robot tags (optional)
 ---
 
 With [X Cards](https://developer.x.com/en/docs/x-for-websites/cards/overview/abouts-cards), you can attach rich photos, videos and media experiences to Tweets, helping to drive traffic to your website.

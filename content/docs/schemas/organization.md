@@ -6,12 +6,13 @@ date: 2024-03-14T21:37:51+01:00
 lastmod: 2026-04-10T12:40:06+02:00
 draft: false
 weight: 420
-toc: true
-seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  robots: "" # custom robot tags (optional)
+params:
+  toc: true
+  seo:
+    title: "" # custom title (optional)
+    description: "" # custom description (recommended)
+    canonical: "" # custom canonical URL (optional)
+    robots: "" # custom robot tags (optional)
 ---
 
 An organization such as a school, NGO, corporation, club, etc.

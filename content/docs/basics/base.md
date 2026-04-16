@@ -6,12 +6,13 @@ date: 2024-03-14T09:31:46+01:00
 lastmod: 2026-04-10T12:21:11+02:00
 draft: false
 weight: 210
-toc: true
-seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  robots: "" # custom robot tags (optional)
+params:
+  toc: true
+  seo:
+    title: "" # custom title (optional)
+    description: "" # custom description (recommended)
+    canonical: "" # custom canonical URL (optional)
+    robots: "" # custom robot tags (optional)
 ---
 
 The `<base>` HTML element specifies the base URL to use for all *relative* URLs in a document.

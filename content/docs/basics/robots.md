@@ -6,12 +6,13 @@ date: 2024-03-14T09:01:07+01:00
 lastmod: 2026-04-10T12:21:38+02:00
 draft: false
 weight: 250
-toc: true
-seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  robots: "" # custom robot tags (optional)
+params:
+  toc: true
+  seo:
+    title: "" # custom title (optional)
+    description: "" # custom description (recommended)
+    canonical: "" # custom canonical URL (optional)
+    robots: "" # custom robot tags (optional)
 ---
 
 The `<meta>` HTML element represents metadata that cannot be represented by other HTML meta-related elements, like `<base>`, `<link>`, `<script>`, `<style>` or `<title>`. If the `name` attribute is set, the `<meta>` element provides document-level metadata, applying to the whole page.

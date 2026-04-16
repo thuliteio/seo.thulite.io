@@ -6,12 +6,13 @@ date: 2024-03-14T20:52:14+01:00
 lastmod: 2026-04-10T12:33:43+02:00
 draft: false
 weight: 340
-toc: true
-seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  robots: "" # custom robot tags (optional)
+params:
+  toc: true
+  seo:
+    title: "" # custom title (optional)
+    description: "" # custom description (recommended)
+    canonical: "" # custom canonical URL (optional)
+    robots: "" # custom robot tags (optional)
 ---
 
 `robots.txt` is a file which is usually placed in the root of your website. It decides whether crawlers are permitted or forbidden access to your website.

@@ -6,12 +6,13 @@ date: 2024-03-13T19:39:06+01:00
 lastmod: 2026-04-10T12:21:25+02:00
 draft: false
 weight: 230
-toc: true
-seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  robots: "" # custom robot tags (optional)
+params:
+  toc: true
+  seo:
+    title: "" # custom title (optional)
+    description: "" # custom description (recommended)
+    canonical: "" # custom canonical URL (optional)
+    robots: "" # custom robot tags (optional)
 ---
 
 The `rel` HTML attribute defines the relationship between a linked resource and the current document. An `alternate` value indicates an alternate representation of the current document. With an `hreflang` attribute that differs from the document language, it indicates a translation.

@@ -5,9 +5,9 @@ summary: "Verify your Thulite SEO setup by inspecting generated HTML tags, check
 date: 2026-04-02T15:58:30+02:00
 lastmod: 2026-04-10T12:09:21+02:00
 draft: false
-weight: 140
-toc: true
+weight: 150
 params:
+  toc: true
   seo:
     title: "" # custom title (optional)
     description: "" # custom description (recommended)

@@ -6,12 +6,13 @@ date: 2024-03-14T21:35:11+01:00
 lastmod: 2026-04-10T12:40:00+02:00
 draft: false
 weight: 410
-toc: true
-seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  robots: "" # custom robot tags (optional)
+params:
+  toc: true
+  seo:
+    title: "" # custom title (optional)
+    description: "" # custom description (recommended)
+    canonical: "" # custom canonical URL (optional)
+    robots: "" # custom robot tags (optional)
 ---
 
 A `WebSite` is a set of related web pages and other items typically served from a single web domain and accessible via URLs.

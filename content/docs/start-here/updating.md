@@ -5,9 +5,9 @@ summary: "Update Thulite SEO to the latest release with npm, pnpm, Yarn, or bun,
 date: 2026-04-02T14:26:32+02:00
 lastmod: 2026-04-10T12:09:28+02:00
 draft: false
-weight: 150
-toc: true
+weight: 160
 params:
+  toc: true
   seo:
     title: "" # custom title (optional)
     description: "" # custom description (recommended)

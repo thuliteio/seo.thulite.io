@@ -6,12 +6,13 @@ date: 2023-11-08T12:26:26+01:00
 lastmod: 2026-04-10T12:09:11+02:00
 draft: false
 weight: 120
-toc: true
-seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  robots: "" # custom robot tags (optional)
+params:
+  toc: true
+  seo:
+    title: "" # custom title (optional)
+    description: "" # custom description (recommended)
+    canonical: "" # custom canonical URL (optional)
+    robots: "" # custom robot tags (optional)
 ---
 
 This guide shows how to add Thulite SEO to your Thulite project.

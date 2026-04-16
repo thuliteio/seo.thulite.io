@@ -6,12 +6,13 @@ date: 2024-03-15T15:45:42+01:00
 lastmod: 2026-04-10T13:45:45+02:00
 draft: false
 weight: 520
-toc: true
-seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  robots: "" # custom robot tags (optional)
+params:
+  toc: true
+  seo:
+    title: "" # custom title (optional)
+    description: "" # custom description (recommended)
+    canonical: "" # custom canonical URL (optional)
+    robots: "" # custom robot tags (optional)
 ---
 
 This reference guide describes the main site parameters and SEO module parameters.

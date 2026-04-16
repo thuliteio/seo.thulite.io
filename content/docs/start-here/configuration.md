@@ -3,15 +3,16 @@ title: "Configuration"
 description: "Learn how to configure Thulite SEO in hugo.toml, params.toml, and page frontmatter, including sitemap, title, description length, and schema settings."
 summary: "Learn how to configure Thulite SEO in hugo.toml, params.toml, and page frontmatter, including sitemap, title, description length, and schema settings."
 date: 2024-03-15T15:25:08+01:00
-lastmod: 2026-04-10T12:09:18+02:00
+lastmod: 2026-04-16T17:19:32+02:00
 draft: false
 weight: 130
-toc: true
-seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  robots: "" # custom robot tags (optional)
+params:
+  toc: true
+  seo:
+    title: "" # custom title (optional)
+    description: "" # custom description (recommended)
+    canonical: "" # custom canonical URL (optional)
+    robots: "" # custom robot tags (optional)
 ---
 
 Configure Thulite SEO by updating settings, parameters, and page frontmatter.
@@ -70,33 +71,4 @@ images = ["cover.png"]
     newsArticle = [] # NewsArticle sections
     blogPosting = [] # BlogPosting sections
     product = [] # Product sections
-```
-
-## Update page frontmatter
-
-Update your [page frontmatter](/docs/reference/page-frontmatter/) — optional, if needed:
-
-```md
----
-title: "First Indexed Page"
-description: ""
-summary: ""
-date: 2026-04-02T08:28:01+02:00
-lastmod: 2026-04-02T08:28:01+02:00
-draft: true
-weight: 999
-toc: true
-params:
-  sitemap_exclude: false
-  seo:
-    title: "" # custom title (optional)
-    description: "" # custom description (recommended)
-    canonical: "" # custom canonical URL (optional)
-    robots: "" # custom robot tags (optional)
-    structured_data:
-      product:
-        currency: USD
-        price: 99
-        availability: https://schema.org/OnlineOnly
----
 ```

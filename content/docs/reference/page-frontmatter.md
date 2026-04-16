@@ -29,8 +29,8 @@ date: 2026-04-02T08:28:01+02:00
 lastmod: 2026-04-02T08:28:01+02:00
 draft: true
 weight: 999
-toc: true
 params:
+  toc: true
   sitemap_exclude: false
   seo:
     title: "" # custom title (optional)

@@ -6,12 +6,13 @@ date: 2024-03-14T21:38:40+01:00
 lastmod: 2026-04-10T12:40:32+02:00
 draft: false
 weight: 460
-toc: true
-seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  robots: "" # custom robot tags (optional)
+params:
+  toc: true
+  seo:
+    title: "" # custom title (optional)
+    description: "" # custom description (recommended)
+    canonical: "" # custom canonical URL (optional)
+    robots: "" # custom robot tags (optional)
 ---
 
 A NewsArticle is an article whose content reports news, or provides background context and supporting materials for understanding the news.
