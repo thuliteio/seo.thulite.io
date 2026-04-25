@@ -52,5 +52,5 @@ Thulite SEO generates the following meta tag — for example:
 
 ## Resources
 
-- [`<title>`: The Document Title element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
+- [`<title>`: The Document Title element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/title)
 - [Influencing your title links in search results](https://developers.google.com/search/docs/appearance/title-link)

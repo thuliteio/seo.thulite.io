@@ -15,7 +15,7 @@ params:
     robots: "" # custom robot tags (optional)
 ---
 
-With [X Cards](https://developer.x.com/en/docs/x-for-websites/cards/overview/abouts-cards), you can attach rich photos, videos and media experiences to Tweets, helping to drive traffic to your website.
+With [X Cards](https://docs.x.com/overview), you can attach rich photos, videos and media experiences to Tweets, helping to drive traffic to your website.
 
 ## Settings
 

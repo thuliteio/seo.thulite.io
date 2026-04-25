@@ -35,4 +35,4 @@ Sitemap: https://seo.thulite.io/sitemap.xml
 
 ## Resources
 
-- [How Google interprets the robots.txt specification](https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt)
+- [How Google interprets the robots.txt specification](https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec)
