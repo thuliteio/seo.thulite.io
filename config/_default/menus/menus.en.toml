@@ -40,6 +40,7 @@
   weight = 10
 
 [[main]]
+  identifier = "thulite-docs"
   name = "Thulite"
   url = 'https://docs.thulite.io/'
   parent = "Documentation"
