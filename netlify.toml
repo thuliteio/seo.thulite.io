@@ -1,9 +1,9 @@
 [build.environment]
   DART_SASS_VERSION = "1.97.3"
   GO_VERSION = "1.26.0"
-  HUGO_VERSION = "0.156.0"
-  NODE_VERSION = "24.13.1"
-  NPM_VERSION = "11.8.0"
+  HUGO_VERSION = "0.162.0"
+  NODE_VERSION = "24.16.0"
+  NPM_VERSION = "11.13.0"
   TZ = "Europe/Amsterdam"
 
 [build]
@@ -12,6 +12,20 @@
   git config core.quotepath false && \
   npm install && \
   hugo build --gc --minify --baseURL "${URL}"
+  """
+
+[context.deploy-preview]
+  command = """\
+  git config core.quotepath false && \
+  npm install && \
+  hugo build --gc --minify --baseURL "$DEPLOY_PRIME_URL"
+  """
+
+[context.branch-deploy]
+  command = """\
+  git config core.quotepath false && \
+  npm install && \
+  hugo build --gc --minify --baseURL "$DEPLOY_PRIME_URL"
   """
 
 [dev]
